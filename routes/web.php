@@ -17,9 +17,14 @@ Route::get('lang/{lang}',function($lang){
 	return redirect()->back();
 });
 
+/**/
+Route::get('tours','TourController@index');
 Route::get('car','CarController@index');
-
 Route::get('travel','TravelController@index');
+Route::get('faq','FaqController@index');
+Route::get('about','AboutController@indexs');
+
+
 Auth::routes();
 // register
 Route::get('register','Auth\RegistrationController@index');
