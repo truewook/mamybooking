@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row">
     	<br>
- 
+    	<div class="col-md-4"></div>
     	<div class="col-md-8">
             <h2>MAMY BOOKING</h2>
             <div class="toggle-container box" id="accordion2">
@@ -66,7 +66,7 @@
     </div>
 
     <div class="row">
- 
+    	<div class="col-md-4"></div>
     	<div class="col-md-8">
             <h2>การชำระเงิน/จอง</h2>
             <div class="toggle-container box" id="accordion3">
@@ -96,7 +96,7 @@
     </div>
 
     <div class="row">
-
+    	<div class="col-md-4"></div>
     	<div class="col-md-8">
             <h2>ทั่วไป</h2>
             <div class="toggle-container box" id="accordion3">
@@ -146,6 +146,7 @@
     </div>
 
     <div class="row">
+    	<div class="col-md-4"></div>
     	<div class="col-md-8">
             <h2>ช่องทางการติดต่อ</h2>
             <div class="toggle-container box" id="accordion3">

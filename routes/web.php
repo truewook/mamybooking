@@ -23,6 +23,7 @@ Route::get('car','CarController@index');
 Route::get('travel','TravelController@index');
 Route::get('faq','FaqController@index');
 Route::get('about','AboutController@index');
+Route::get('contact','ContactController@index');
 
 
 Auth::routes();
