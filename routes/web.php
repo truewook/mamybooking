@@ -22,7 +22,7 @@ Route::get('tours','TourController@index');
 Route::get('car','CarController@index');
 Route::get('travel','TravelController@index');
 Route::get('faq','FaqController@index');
-Route::get('about','AboutController@indexs');
+Route::get('about','AboutController@index');
 
 
 Auth::routes();

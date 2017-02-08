@@ -11146,7 +11146,7 @@ button.ui-button::-moz-focus-inner {
   border-color: #ff6000;
   color: #12a0c3;
 }
-#footer.style4 > .footer-wrapper {
+/*#footer.style4 > .footer-wrapper {
   background: url("../images/themes/footer/style04/sky.png") no-repeat center bottom;
   padding-bottom: 0;
 }
@@ -11173,7 +11173,7 @@ button.ui-button::-moz-focus-inner {
   bottom: 0;
   right: 0;
   background-image: url("http://placehold.it/1171x158");
-}
+}*/
 #footer.style4 .bottom {
   margin-top: 0;
 }
