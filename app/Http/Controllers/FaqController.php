@@ -9,12 +9,12 @@ class FaqController extends Controller
 
     public function index()
     {
-        view('faq');
+        return view('faq');
     }
 
     public function create()
     {
-        //
+        
     }
 
     public function store(Request $request)

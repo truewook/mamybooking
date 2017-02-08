@@ -41,6 +41,8 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    @yield('style')
     
     <!-- CSS for IE -->
     <!--[if lte IE 9]>
@@ -850,6 +852,8 @@
     <!-- load page Javascript -->
     <script type="text/javascript" src="{{asset('js/theme-scripts.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/scripts.js')}}"></script>
+
+    @yield('script')
     
     <script type="text/javascript">
         tjq(document).ready(function() {
