@@ -18,7 +18,7 @@
         </ul>
     </div>
 </div>
-<section id="content">
+<section id="content" class="gray-area">
 <div class="container">
     <div class="row">
     	<br>
