@@ -1,5 +1,18 @@
-
-.logo-mamy {
-	padding: 0px 0px !important;
-	height: 0px;
+.bg-img {
+	background-image: url('../images/banner-mamy.png');
+	width:100%;
+	height: 500px;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.search {
+	margin-top: 100px;
+	background-color: #414141;
+	height: auto;
+	width: 100%;
+	opacity: 0.6;
+}
+.search-wrapper {
+	margin-top: 20px;
 }
