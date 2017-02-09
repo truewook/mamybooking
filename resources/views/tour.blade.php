@@ -35,7 +35,7 @@
                                         <span class="min-price-label pull-left"></span>
                                         <span class="max-price-label pull-right"></span>
                                         <div class="clearer"></div>
-                                    </div><!-- end content -->
+                                    </div>
                                 </div>
                             </div>
                             
@@ -186,5 +186,25 @@
 @endsection
 
 @section('script')
-
+ 	<!-- load BXSlider scripts -->
+    <script type="text/javascript" src="{{asset('components/jquery.bxslider/jquery.bxslider.min.js')}}"></script>
+    
+    <!-- load FlexSlider scripts -->
+    <script type="text/javascript" src="{{asset('components/flexslider/jquery.flexslider-min.js')}}"></script>
+    <script type="text/javascript">
+        tjq(document).ready(function() {
+            tjq("#price-range").slider({
+                range: true,
+                min: 0,
+                max: 1000,
+                values: [ 100, 800 ],
+                slide: function( event, ui ) {
+                    tjq(".min-price-label").html( "$" + ui.values[ 0 ]);
+                    tjq(".max-price-label").html( "$" + ui.values[ 1 ]);
+                }
+            });
+            tjq(".min-price-label").html( "$" + tjq("#price-range").slider( "values", 0 ));
+            tjq(".max-price-label").html( "$" + tjq("#price-range").slider( "values", 1 ));
+        });
+    </script>
 @endsection
