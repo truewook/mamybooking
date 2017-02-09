@@ -17,8 +17,7 @@
 	    </ul>
 	</div>
 </div>
-<div class="container">
-	<section id="content">
+	<section id="content" class="gray-area">
         <div class="container">
             <div id="main">
             	<div class="row">
@@ -140,13 +139,16 @@
                                 <li class="sort-by-popularity"><a class="sort-by-container" href="#"><span>popularity</span></a></li>
                             </ul>
                         </div>
-						<div class="tour-packages row add-clearfix image-box">      
+                        <br>
+						<div class="tour-packages add-clearfix image-box">      
 		                    <div class="row add-clearfix image-box style1 tour-locations">
+		                    	<?php for ($i=1; $i <= 12 ; $i++) { ?>
+		                    		
 		                        <div class="col-sm-6 col-md-6">
 		                            <article class="box">
 		                                <figure>
 		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
+		                                        <img src="http://placehold.it/570x270" width="100%" height="auto" alt="">
 		                                    </a>
 		                                </figure>
 		                                <div class="details">
@@ -170,154 +172,17 @@
 		                                </div>
 		                            </article>
 		                        </div>
-		                        <div class="col-sm-6">
-		                            <article class="box">
-		                                <figure>
-		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
-		                                    </a>
-		                                </figure>
-		                                <div class="details">
-		                                    <span class="price">$534</span>
-		                                    <h4 class="box-title">Italy Family Tour</h4>
-		                                    <hr>
-		                                    <ul class="features check">
-		                                        <li>City Tour In 3 Hours</li>
-		                                        <li>Enjoy World Famous Restaurant</li>
-		                                        <li>Wine Tester Trips</li>
-		                                        <li>Night Street Life in Downtown </li>
-		                                    </ul>
-		                                    <hr>
-		                                    <div class="text-center">
-		                                        <div class="time">
-		                                            <i class="soap-icon-clock yellow-color"></i>
-		                                            <span>01 Nov 2014 - 08 Nov 2014</span>
-		                                        </div>
-		                                    </div>
-		                                    <a href="#" class="button btn-small full-width">BOOK NOW</a>
-		                                </div>
-		                            </article>
-		                        </div>
-		                        <div class="col-sm-6">
-		                            <article class="box">
-		                                <figure>
-		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
-		                                    </a>
-		                                </figure>
-		                                <div class="details">
-		                                    <span class="price">$718</span>
-		                                    <h4 class="box-title">Chicago Long Tour</h4>
-		                                    <hr>
-		                                    <ul class="features check">
-		                                        <li>City Tour In 3 Hours</li>
-		                                        <li>Enjoy World Famous Restaurant</li>
-		                                        <li>Wine Tester Trips</li>
-		                                        <li>Night Street Life in Downtown </li>
-		                                    </ul>
-		                                    <hr>
-		                                    <div class="text-center">
-		                                        <div class="time">
-		                                            <i class="soap-icon-clock yellow-color"></i>
-		                                            <span>01 Nov 2014 - 08 Nov 2014</span>
-		                                        </div>
-		                                    </div>
-		                                    <a href="#" class="button btn-small full-width">BOOK NOW</a>
-		                                </div>
-		                            </article>
-		                        </div>
-		                        <div class="col-sm-6">
-		                            <article class="box">
-		                                <figure>
-		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
-		                                    </a>
-		                                </figure>
-		                                <div class="details">
-		                                    <span class="price">$426</span>
-		                                    <h4 class="box-title">Paris Tour Package</h4>
-		                                    <hr>
-		                                    <ul class="features check">
-		                                        <li>City Tour In 3 Hours</li>
-		                                        <li>Enjoy World Famous Restaurant</li>
-		                                        <li>Wine Tester Trips</li>
-		                                        <li>Night Street Life in Downtown </li>
-		                                    </ul>
-		                                    <hr>
-		                                    <div class="text-center">
-		                                        <div class="time">
-		                                            <i class="soap-icon-clock yellow-color"></i>
-		                                            <span>01 Nov 2014 - 08 Nov 2014</span>
-		                                        </div>
-		                                    </div>
-		                                    <a href="#" class="button btn-small full-width">BOOK NOW</a>
-		                                </div>
-		                            </article>
-		                        </div>
-		                        <div class="col-sm-6">
-		                            <article class="box">
-		                                <figure>
-		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
-		                                    </a>
-		                                </figure>
-		                                <div class="details">
-		                                    <span class="price">$718</span>
-		                                    <h4 class="box-title">Australia Tour</h4>
-		                                    <hr>
-		                                    <ul class="features check">
-		                                        <li>City Tour In 3 Hours</li>
-		                                        <li>Enjoy World Famous Restaurant</li>
-		                                        <li>Wine Tester Trips</li>
-		                                        <li>Night Street Life in Downtown </li>
-		                                    </ul>
-		                                    <hr>
-		                                    <div class="text-center">
-		                                        <div class="time">
-		                                            <i class="soap-icon-clock yellow-color"></i>
-		                                            <span>01 Nov 2014 - 08 Nov 2014</span>
-		                                        </div>
-		                                    </div>
-		                                    <a href="#" class="button btn-small full-width">BOOK NOW</a>
-		                                </div>
-		                            </article>
-		                        </div>
-		                        <div class="col-sm-6">
-		                            <article class="box">
-		                                <figure>
-		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" alt="">
-		                                    </a>
-		                                </figure>
-		                                <div class="details">
-		                                    <span class="price">$534</span>
-		                                    <h4 class="box-title">Dubai Family Tour</h4>
-		                                    <hr>
-		                                    <ul class="features check">
-		                                        <li>City Tour In 3 Hours</li>
-		                                        <li>Enjoy World Famous Restaurant</li>
-		                                        <li>Wine Tester Trips</li>
-		                                        <li>Night Street Life in Downtown </li>
-		                                    </ul>
-		                                    <hr>
-		                                    <div class="text-center">
-		                                        <div class="time">
-		                                            <i class="soap-icon-clock yellow-color"></i>
-		                                            <span>01 Nov 2014 - 08 Nov 2014</span>
-		                                        </div>
-		                                    </div>
-		                                    <a href="#" class="button btn-small full-width">BOOK NOW</a>
-		                                </div>
-		                            </article>
-		                        </div>
+
+		                       	<?php } ?>
+		                       
 		                    </div>
                     		<a href="#" class="button btn-large full-width uppercase">Load More Packages</a>
+                    	</div>
                     </div>
 	            </div>
             </div>   
         </div>
     </section>
-</div>
 @endsection
 
 @section('script')
