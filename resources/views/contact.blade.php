@@ -81,40 +81,34 @@
                     <ul class="contact-address">
                         <li class="address">
                             <i class="soap-icon-address circle"></i>
-                            <!-- <h5 class="title">ที่อยู่</h5> -->
                             <h5 class="title">ที่อยู่ 2000/44 ซอย เจริญกรุง 72 แขวง วัดพระยาไกร เขต บางคอแหลม จังหวัด กทม. 10120</h5>
                         </li>
                         <li class="phone">
                             <i class="soap-icon-phone circle"></i>
                             <h5 class="title">โทร 02-2921344 </h5>
                             <h5 class="title">แฟกซ์ 02-2921343</h5>
-                        <!--     <p>โทร 02-2921344 </p>
-                            <p>แฟกซ์ 02-2921343</p> -->
                         </li>
                     </ul>
                 </div>
             </div>
 	    </div>
-
+        
 	    <div class="row">
 	    	<div class="col-md-6 col-sm-6 col-xs-12">
 	    		<div class="travelo-google-map block"></div>
 	    	</div>
 	    	<div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="travelo-box contact-us-box">
-                    <h3>บบริษัท หม่ามี๊ บุ๊คกิ้ง จำกัด (สาขาใหญ่)</h3>
+                    <h3>บริษัท หม่ามี๊ บุ๊คกิ้ง จำกัด (สาขาใหญ่)</h3>
                     <ul class="contact-address">
                         <li class="address">
                             <i class="soap-icon-address circle"></i>
-                            <!-- <h5 class="title">ที่อยู่</h5> -->
                             <h5 class="title">ที่อยู่ 161/76 ม. 11 ถ. สุขุมวิท ต. หนองปรือ อ. บางละมุง จ. ชลบุรี 20150</h5>
                         </li>
                         <li class="phone">
                             <i class="soap-icon-phone circle"></i>
                             <h5 class="title">โทร 038-425228 </h5>
-                            <h5 class="title">แฟกซ์ 38-425229</h5>
-                        <!--     <p>โทร 02-2921344 </p>
-                            <p>แฟกซ์ 02-2921343</p> -->
+                            <h5 class="title">แฟกซ์ 38-4252293</h5>
                         </li>
                     </ul>
                 </div>

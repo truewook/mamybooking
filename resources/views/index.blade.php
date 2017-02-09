@@ -5,6 +5,7 @@
 @endsection
 
 @section('content')
+<<<<<<< HEAD
 <section id="content" class="slideshow-bg">
     <div id="slideshow">
         <div class="flexslider">
@@ -39,6 +40,13 @@
             <h2 class="page-description col-md-6 no-float no-padding">มั่นใจไปกับเรา MamyBooking</h2>
             <div class="search-box-wrapper style2">
                 <div class="search-box">
+=======
+        <div class="bg-img"></div>
+            <div class="container">
+                <div class="search">
+                    <div class="search-box-wrapper">
+                <div class="search-box container">
+>>>>>>> origin/master
                     <ul class="search-tabs clearfix">
                         <li class="active"><a href="#hotels-tab" data-toggle="tab"><i class="soap-icon-hotel"></i><span>ทริปท่องเที่ยว</span></a></li>
                         <li><a href="#cars-tab" data-toggle="tab"><i class="soap-icon-car"></i><span>รถเช่า</span></a></li>
@@ -87,6 +95,7 @@
                                             <div class="col-xs-4">
                                                 <div class="selector">
                                                     <select class="full-width">
+<<<<<<< HEAD
                                                         <option value="1">1 Guest</option>
                                                         <option value="2">2 Guests</option>
                                                         <option value="3">3 Guests</option>
@@ -170,6 +179,8 @@
                                                 <div class="selector">
                                                     <select class="full-width">
                                                         <option value="">Kids</option>
+=======
+>>>>>>> origin/master
                                                         <option value="1">01</option>
                                                         <option value="2">02</option>
                                                         <option value="3">03</option>
@@ -177,6 +188,7 @@
                                                     </select>
                                                 </div>
                                             </div>
+<<<<<<< HEAD
                                             <div class="col-xs-6">
                                                 <input type="text" class="input-text full-width" placeholder="Promo Code" />
                                             </div>
@@ -193,12 +205,18 @@
                                             </div>
                                             <div class="col-xs-6">
                                                 <button class="full-width">SERACH NOW</button>
+=======
+                                            <div class="col-xs-6 pull-right">
+                                                <label>&nbsp;</label>
+                                                <button class="full-width icon-check">SERACH NOW</button>
+>>>>>>> origin/master
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
+<<<<<<< HEAD
                     
                     </div>
                 </div>
@@ -222,6 +240,32 @@
                         <div class="details">
                             <span class="price"><small>FROM</small>$490</span>
                             <h4 class="box-title">Atlantis - The Palm<small>Paris</small></h4>
+=======
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+            
+        <section id="content">
+            
+            
+            <!-- Popuplar Destinations -->
+            <div class="destinations section">
+                <div class="container">
+                    <h2>Popular Destinations</h2>
+                    <div class="row image-box style1 add-clearfix">
+                        <div class="col-sms-6 col-sm-6 col-md-3">
+                            <article class="box">
+                                <figure class="animated" data-animation-type="fadeInDown" data-animation-duration="1">
+                                    <a href="ajax/slideshow-popup.html" title="" class="hover-effect popup-gallery"><img src="http://placehold.it/270x160" alt="" width="270" height="160" /></a>
+                                </figure>
+                                <div class="details">
+                                    <span class="price"><small>FROM</small>$490</span>
+                                    <h4 class="box-title"><a href="hotel-detailed.html">Atlantis - The Palm<small>Paris</small></a></h4>
+                                </div>
+                            </article>
+>>>>>>> origin/master
                         </div>
                     </article>
                 </div>
