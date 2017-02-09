@@ -1,26 +1,30 @@
 @extends('layouts.master')
 
+@section('style')
+
+@endsection
+
 @section('content')
-<div id="slideshow">
+        <div id="slideshow">
             <div class="fullwidthbanner-container">
                 <div class="revolution-slider rev_slider" style="height: 0; overflow: hidden;">
                     <ul>    <!-- SLIDE  -->
                         <!-- Slide1 -->
                         <li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/2080x646" alt="">
+                            <img src="{{url('images/travel.png')}}" alt="">
                         </li>
                         
                         <!-- Slide2 -->
                         <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/2080x646" alt="">
+                            <img src="{{url('images/travel.png')}}" alt="">
                         </li>
                         
                         <!-- Slide3 -->
                         <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1500">
                             <!-- MAIN IMAGE -->
-                            <img src="http://placehold.it/2080x646" alt="">
+                            <img src="{{url('images/travel.png')}}" alt="">
                         </li>
                     </ul>
                 </div>
@@ -28,26 +32,16 @@
         </div>
             
         <section id="content">
-            <div class="search-box-wrapper">
+            <div class="search-box-wrapper style2">
                 <div class="search-box container">
                     <ul class="search-tabs clearfix">
-                        <li class="active"><a href="#hotels-tab" data-toggle="tab">HOTELS</a></li>
-                        <li><a href="#flights-tab" data-toggle="tab">FLIGHTS</a></li>
-                        <li><a href="#flight-and-hotel-tab" data-toggle="tab">FLIGHT &amp; HOTELS</a></li>
-                        <li><a href="#cars-tab" data-toggle="tab">CARS</a></li>
-                        <li><a href="#cruises-tab" data-toggle="tab">CRUISES</a></li>
-                        <li><a href="#flight-status-tab" data-toggle="tab">FLIGHT STATUS</a></li>
-                        <li><a href="#online-checkin-tab" data-toggle="tab">ONLINE CHECK IN</a></li>
+                        <li class="active"><a href="#hotels-tab" data-toggle="tab">Tour</a></li>
+                        <li><a href="#flights-tab" data-toggle="tab">Car</a></li>
                     </ul>
                     <div class="visible-mobile">
                         <ul id="mobile-search-tabs" class="search-tabs clearfix">
-                            <li class="active"><a href="#hotels-tab">HOTELS</a></li>
-                            <li><a href="#flights-tab">FLIGHTS</a></li>
-                            <li><a href="#flight-and-hotel-tab">FLIGHT &amp; HOTELS</a></li>
-                            <li><a href="#cars-tab">CARS</a></li>
-                            <li><a href="#cruises-tab">CRUISES</a></li>
-                            <li><a href="#flight-status-tab">FLIGHT STATUS</a></li>
-                            <li><a href="#online-checkin-tab">ONLINE CHECK IN</a></li>
+                            <li class="active"><a href="#hotels-tab" data-toggle="tab">Tour</a></li>
+                            <li><a href="#flights-tab" data-toggle="tab">Car</a></li>
                         </ul>
                     </div>
                     
@@ -55,68 +49,14 @@
                         <div class="tab-pane fade active in" id="hotels-tab">
                             <form action="hotel-list-view.html" method="post">
                                 <div class="row">
-                                    <div class="form-group col-sm-6 col-md-3">
-                                        <h4 class="title">Where</h4>
-                                        <label>Your Destination</label>
-                                        <input type="text" class="input-text full-width" placeholder="enter a destination or hotel name" />
+                                    <div class="form-group col-sm-6 col-md-3 ">
+                                        <h4 class="title"><center>ค้นหาทริปท่องเที่ยว</center></h4>
+                                        <label>สถานที่</label>
+                                        <input type="text" class="input-text full-width" placeholder="city, distirct or specific airpot" />
+
                                     </div>
                                     
-                                    <div class="form-group col-sm-6 col-md-4">
-                                        <h4 class="title">When</h4>
-                                        <div class="row">
-                                            <div class="col-xs-6">
-                                                <label>Check In</label>
-                                                <div class="datepicker-wrap">
-                                                    <input type="text" name="date_from" class="input-text full-width" placeholder="mm/dd/yy" />
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <label>Check Out</label>
-                                                <div class="datepicker-wrap">
-                                                    <input type="text" name="date_to" class="input-text full-width" placeholder="mm/dd/yy" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     
-                                    <div class="form-group col-sm-6 col-md-3">
-                                        <h4 class="title">Who</h4>
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <label>Rooms</label>
-                                                <div class="selector">
-                                                    <select class="full-width">
-                                                        <option value="1">01</option>
-                                                        <option value="2">02</option>
-                                                        <option value="3">03</option>
-                                                        <option value="4">04</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <label>Adults</label>
-                                                <div class="selector">
-                                                    <select class="full-width">
-                                                        <option value="1">01</option>
-                                                        <option value="2">02</option>
-                                                        <option value="3">03</option>
-                                                        <option value="4">04</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <label>Kids</label>
-                                                <div class="selector">
-                                                    <select class="full-width">
-                                                        <option value="1">01</option>
-                                                        <option value="2">02</option>
-                                                        <option value="3">03</option>
-                                                        <option value="4">04</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     
                                     <div class="form-group col-sm-6 col-md-2 fixheight">
                                         <label class="hidden-xs">&nbsp;</label>

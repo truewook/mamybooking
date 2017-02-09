@@ -5,14 +5,15 @@
 @endsection
 
 @section('content')
-<div class="page-title-container">
+<div class="page-title-container style4">
     <div class="container">
-        <div class="page-title pull-left">
-            <h1 class="entry-title">เกี่ยวกับเรา</h1>
+        <div class="page-title">
+            <i class="soap-icon-businessbag"></i>
+            <h2 class="entry-title">เกี่ยวกับเรา</h2>
         </div>
-        <ul class="breadcrumbs pull-right">
+        <ul class="breadcrumbs">
             <li><a href="{{url('/')}}">HOME</a></li>
-            <li class="active">About Us</li>
+            <li class="active">About us</li>
         </ul>
     </div>
 </div>
@@ -33,63 +34,43 @@
 	    	</div>
 	    	<div class="col-md-12">
 	    		<h2>วิสัยทัศน์</h2>
-	    		<div class="large-block image-box style6">
-                        <article class="box">
-                            <figure class="col-md-5">
-                                <a href="#" title="" class="middle-block"><img class="middle-item" src="http://placehold.it/476x318" alt="" width="476" height="318" /></a>
-                            </figure>
-                            <div class="details col-md-offset-5">
-                                <h4 class="box-title">มั่นใจได้ 100%</h4>
-                                <p> เราได้ผ่านการตรวจสอบจากการท่องเที่ยวแห่งประเทศไทย และ กรมพัฒนาธุรกิจการค้า กระทรวงพาณิชย์ </p>
+                <div id="main">
+                    <div class="large-block">
+                        <div class="travelo-box">
+                            <div class="overflow-hidden">
+                                <div class="services column-5-no-margin">
+                                   
+                                    <article class="icon-box style9">
+                                        <i class="soap-icon-stories"></i>
+                                        <h5 class="box-title">มั่นใจได้ 100%</h5>
+                                        <p>เราได้ผ่านการตรวจสอบจากการท่องเที่ยวแห่งประเทศไทย และ กรมพัฒนาธุรกิจการค้า กระทรวงพาณิชย์</p>
+                                    </article>
+                                    <article class="icon-box style9">
+                                        <i class="soap-icon-beach"></i>
+                                        <h5 class="box-title">มีทริปท่องเที่ยวให้เลือกทั่วประเทศ</h5>
+                                        <p>พราะประเทศที่เป็นแหล่งรวมนักท่องเที่ยวทั่วโลก ประเทศไทยสิดีที่สุดแล้ว ยังมีอีกหลายที่รอคุณไปสัมผัสด่วยตัวเอง</p>
+                                    </article>
+                                    <article class="icon-box style9">
+                                        <i class="soap-icon-slider"></i>
+                                        <h5 class="box-title">สนุนการท่องเที่ยวในประเทศไทย</h5>
+                                        <p>ไหนที่คุณยังไม่เคยไป เราจะไปเสาะหามา เพื่อเพิ่มประสบการณ์ใหม่ให้กับชีวิตของคุณ์</p>
+                                    </article>
+                                    <article class="icon-box style9">
+                                        <i class="fa fa-money" aria-hidden="true"></i>
+                                        <h5 class="box-title">หลากหลายช่องทางการชำระเงิน</h5>
+                                        <p>มีระบบสำรองที่พัก จองทริปท่องเที่ยว ระบบรับชำระเงินออนไลน์ และ ช่องทางการประชาสัมพันธ์</p>
+                                    </article>
+                                    <article class="icon-box style9">
+                                        <i class="soap-icon-doc-plus"></i>
+                                        <h5 class="box-title">สะสมแต้มทุกครั้งที่เที่ยว</h5>
+                                        <p>ยิ่งเที่ยว ยิ่งได้เงินคืน ยิ่งแนะนำยิ่งได้แต้ม สิทธิพิเศษสูงสุด โปรโมชั่นใหม่ทุกๆเดือน</p>
+                                    </article>
+                                    </div>
+                                </div>
                             </div>
-                        </article>
-                        <article class="box">
-                            <figure class="col-md-5 pull-right middle-block">
-                                <a href="#" title=""><img class="middle-item" src="http://placehold.it/476x318" alt="" width="476" height="318" /></a>
-                            </figure>
-                            <div class="details col-md-7">
-                                <h4 class="box-title">มีทริปท่องเที่ยวให้เลือกทั่วประเทศ</h4>
-                                <p>พราะประเทศที่เป็นแหล่งรวมนักท่องเที่ยวทั่วโลก ประเทศไทยสิดีที่สุดแล้ว ยังมีอีกหลายที่รอคุณไปสัมผัสด่วยตัวเอง</p>
-                            </div>
-                        </article>
-                        <article class="box">
-                            <figure class="col-md-5">
-                                <a href="#" title="" class="middle-block"><img class="middle-item" src="http://placehold.it/489x489" alt="" /></a>
-                            </figure>
-                            <div class="details col-md-offset-5">
-                                <h4 class="box-title">จอง จ่าย จบ</h4>
-                                <p>เราลดทอนขั้นตอนให้ง่าย สะดวก รวดเร็ว</p>
-                            </div>
-                        </article>
-                        <article class="box">
-                            <figure class="col-md-5 pull-right middle-block">
-                                <a href="#" title="" class="middle-block"><img class="middle-item" src="http://placehold.it/489x489" alt="" /></a>
-                            </figure>
-                            <div class="details details col-md-7">
-                                <h4 class="box-title">สนุนการท่องเที่ยวในประเทศไทย</h4>
-                                <p>ไหนที่คุณยังไม่เคยไป เราจะไปเสาะหามา เพื่อเพิ่มประสบการณ์ใหม่ให้กับชีวิตของคุณ</p>
-                            </div>
-                        </article>
-                        <article class="box">
-                            <figure class="col-md-5">
-                                <a href="#" title="" class="middle-block"><img class="middle-item" src="http://placehold.it/489x489" alt="" /></a>
-                            </figure>
-                            <div class="details col-md-offset-5">
-                                <h4 class="box-title">หลากหลายช่องทางการชำระเงิน</h4>
-                                <p>มีระบบสำรองที่พัก จองทริปท่องเที่ยว ระบบรับชำระเงินออนไลน์ และ ช่องทางการประชาสัมพันธ์</p>
-                            </div>
-                        </article>
-                        <article class="box">
-                            <figure class="col-md-5 pull-right middle-block">
-                                <a href="#" title="" class="middle-block"><img class="middle-item" src="http://placehold.it/489x489" alt="" /></a>
-                            </figure>
-                            <div class="details details col-md-7">
-                                <h4 class="box-title">สะสมแต้มทุกครั้งที่เที่ยว</h4>
-                                <p>ยิ่งเที่ยว ยิ่งได้เงินคืน ยิ่งแนะนำยิ่งได้แต้ม สิทธิพิเศษสูงสุด โปรโมชั่นใหม่ทุกๆเดือน</p>
-                            </div>
-                        </article>
-                        
+                        </div>
                     </div>
+                </div>
 
 	    	</div>
 	    	<div class="col-md-12">
@@ -195,7 +176,7 @@
 	    	</div>
 	    </div>
 	</div>
-</div>
+</section>
 @endsection
 
 @section('script')

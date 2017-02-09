@@ -37,7 +37,11 @@
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
     
     <!-- Responsive Styles -->
+    <link rel="stylesheet" href="{{asset('css/bootstrap-select.min.css')}}">
+
+    <!-- Select -->
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -402,6 +406,9 @@
     <!-- load page Javascript -->
     <script type="text/javascript" src="{{asset('js/theme-scripts.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/scripts.js')}}"></script>
+
+    <!-- Select -->
+    <script type="text/javascript" src="{{asset('js/bootstrap-select.min.js')}}"></script>
 
     @yield('script')
     

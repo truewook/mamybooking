@@ -1,13 +1,1 @@
-@extends('layouts.app')
-
-@section('content')
-
-<!-- @include('flash::message') -->
-
-<div class="container">
-   @foreach($car as $cars)
-        {{$cars->id}}
-   @endforeach
-
-</div>
-@endsection
+@extends('layouts.master')@section('style')@endsection@section('content')<div class="page-title-container style4">	<div class="container">	    <div class="page-title">	        <i class="soap-icon-support"></i>	        <h2 class="entry-title">รถเช่า</h2>	    </div>	    <ul class="breadcrumbs">	        <li><a href="{{url('/')}}">HOME</a></li>	        <li class="active">Car rent</li>	    </ul>	</div></div><div class="container">    </div>@endsection@section('script')@endsection
