@@ -3,16 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Car;
 class CarController extends Controller
 {
 
     public function index()
     {
-        $car = Car::where('active',1)->get();
 
         // dd($car);
-        return  view('car',array('car'=>$car));
+        return  view('car');
     }
 
 
@@ -29,9 +27,8 @@ class CarController extends Controller
 
     public function show($id)
     {
-        $car = Car::where('id',$id)->where('active',1)->get();
 
-        return view('car',compact('car'));
+        return view('car_show');
     }
 
  
