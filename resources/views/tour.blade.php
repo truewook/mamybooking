@@ -26,6 +26,28 @@
                         <div class="toggle-container filters-container">
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#modify-search-panel" class="collapsed">Quick Search</a>
+                                </h4>
+                                <div id="modify-search-panel" class="panel-collapse collapse">
+                                    <div class="panel-content">
+                                        <form method="post">
+                                            <div class="form-group">
+                                                <label>คำค้น</label>
+                                                <input type="text" class="input-text full-width" placeholder="" value="" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label>pickup from</label>
+                                                <input type="text" class="input-text full-width" placeholder="city, district, or specific airpot" value="" />
+                                            </div>
+                                            <br />
+                                            <button class="btn-medium icon-check uppercase full-width">search again</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel style1 arrow-right">
+                                <h4 class="panel-title">
                                     <a data-toggle="collapse" href="#price-filter" class="collapsed">Price</a>
                                 </h4>
                                 <div id="price-filter" class="panel-collapse collapse">
@@ -35,6 +57,25 @@
                                         <span class="min-price-label pull-left"></span>
                                         <span class="max-price-label pull-right"></span>
                                         <div class="clearer"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel style1 arrow-right">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#rating-filter" class="" aria-expanded="true">User Rating</a>
+                                </h4>
+                                <div id="rating-filter" class="panel-collapse collapse in">
+                                    <div class="panel-content">
+                                        <div id="rating5" class="five-stars-container editable-rating"></div>
+                                        <br />
+                                        <div id="rating4" class="five-stars-container editable-rating"></div>
+                                        <br />
+                                        <div id="rating3" class="five-stars-container editable-rating"></div>
+                                        <br />
+                                        <div id="rating2" class="five-stars-container editable-rating"></div>
+                                        <br />
+                                        <div id="rating1" class="five-stars-container editable-rating"></div>
                                     </div>
                                 </div>
                             </div>
@@ -97,35 +138,7 @@
                                 </div>
                             </div>
                             
-                            <div class="panel style1 arrow-right">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#modify-search-panel" class="collapsed">Modify Search</a>
-                                </h4>
-                                <div id="modify-search-panel" class="panel-collapse collapse">
-                                    <div class="panel-content">
-                                        <form method="post">
-                                            <div class="form-group">
-                                                <label>pickup from</label>
-                                                <input type="text" class="input-text full-width" placeholder="city, district, or specific airpot" value="" />
-                                            </div>
-                                            <div class="form-group">
-                                                <label>pick-up date</label>
-                                                <div class="datepicker-wrap">
-                                                    <input type="text" name="date_from" class="input-text full-width" placeholder="mm/dd/yy" />
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>drop-off date</label>
-                                                <div class="datepicker-wrap">
-                                                    <input type="text" name="date_to" class="input-text full-width" placeholder="mm/dd/yy" />
-                                                </div>
-                                            </div>
-                                            <br />
-                                            <button class="btn-medium icon-check uppercase full-width">search again</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-sm-8 col-md-9">
@@ -205,6 +218,37 @@
             });
             tjq(".min-price-label").html( "$" + tjq("#price-range").slider( "values", 0 ));
             tjq(".max-price-label").html( "$" + tjq("#price-range").slider( "values", 1 ));
+
+            tjq("#rating5").slider({
+                range: "min",
+                value: 50,
+                min: 0,
+                max: 50,
+            });
+            tjq("#rating4").slider({
+                range: "min",
+                value: 40,
+                min: 0,
+                max: 50,
+            });
+            tjq("#rating3").slider({
+                range: "min",
+                value: 30,
+                min: 0,
+                max: 50,
+            });
+            tjq("#rating2").slider({
+                range: "min",
+                value: 20,
+                min: 0,
+                max: 50,
+            });
+            tjq("#rating1").slider({
+                range: "min",
+                value: 10,
+                min: 0,
+                max: 50,
+            });
         });
     </script>
 @endsection
