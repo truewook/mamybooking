@@ -197,7 +197,7 @@
                 range: true,
                 min: 0,
                 max: 1000,
-                values: [ 100, 800 ],
+                values: [ 0, 1000 ],
                 slide: function( event, ui ) {
                     tjq(".min-price-label").html( "$" + ui.values[ 0 ]);
                     tjq(".max-price-label").html( "$" + ui.values[ 1 ]);

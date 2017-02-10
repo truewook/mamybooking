@@ -18,14 +18,15 @@ Route::get('lang/{lang}',function($lang){
 });
 
 /**/
-Route::get('tour','TourController@index');
-Route::get('car','CarController@index');
-Route::get('travel','TravelController@index');
+Route::resource('tour','TourController');
+Route::resource('car','CarController');
 Route::get('faq','FaqController@index');
 Route::get('about','AboutController@index');
 Route::get('contact','ContactController@index');
 
 Route::get('content','ContentController@index');
+
+Route::resource('dashboard','Corporate\DashboardController');
 
 
 Auth::routes();

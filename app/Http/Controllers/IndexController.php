@@ -3,13 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Facility;
+
 class IndexController extends Controller
 {
 
     public function index()
     {
-        $facility = Facility::all();
 
         return view('index');
     }

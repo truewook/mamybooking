@@ -1,45 +1,41 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Corporate;
 
 use Illuminate\Http\Request;
-use App\Car;
-class CarController extends Controller
+use App\Http\Controllers\Controller;
+
+class DashboardController extends Controller
 {
+
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     public function index()
     {
-        $car = Car::where('active',1)->get();
-
-        // dd($car);
-        return  view('car',array('car'=>$car));
+        return view('dashboard');
     }
-
 
     public function create()
     {
         //
     }
 
-
     public function store(Request $request)
     {
         //
     }
-
     public function show($id)
-    {
-        $car = Car::where('id',$id)->where('active',1)->get();
-
-        return view('car',compact('car'));
-    }
-
- 
-    public function edit($id)
     {
         //
     }
 
+    public function edit($id)
+    {
+        //
+    }
 
     public function update(Request $request, $id)
     {
