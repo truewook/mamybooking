@@ -1,12 +1,33 @@
-<<<<<<< HEAD
-
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,300,400');
+.kanit {
+	font-family: 'Kanit', sans-serif;
+}
+.menu-font {
+	font-family: 'Kanit';
+	font-weight: 200;
+	font-size: 14px;
+	color: #000000;
+}
+.menu-font:hover {
+	color: #357ae8;
+}
+#main-menu ul.menu > li.active > a, .chaser ul.menu > li.active > a {
+  color: #357ae8;
+/*  font-weight: 300;*/
+	font-weight: 200;
+  /*font-weight: normal !important;*/
+  font-size: 14px;
+}
+#main-menu ul.menu > li:hover > a, .chaser ul.menu > li:hover > a {
+  color: #357ae8;
+}
 .logo-mamy {
 	padding: 0px 0px !important;
 	height: 0px;
 }
 .f20 {
 	font-size: 33px !important;
-=======
+}
 .bg-img {
 	background-image: url('../images/banner-mamy.png');
 	width:100%;
@@ -24,5 +45,12 @@
 }
 .search-wrapper {
 	margin-top: 20px;
->>>>>>> origin/master
+}
+.features {
+    background-color: #f8f8f8;
+    color: #062d5d;
+    padding: 30px 0 30px 0;
+}
+.button-bule {
+	background: #357ae8 !important;
 }

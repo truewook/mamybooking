@@ -18,7 +18,7 @@
     <!-- Theme Styles -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{asset('css/animate.min.css')}}">
     
     <!-- Current Page Styles -->
@@ -139,31 +139,32 @@
                 </a>
 
                 <div class="container">
-                    <h1 class="logo navbar-brand">
-                        <a href="index.html" title="Travelo - home">
+                    <h1 class=" navbar-brand">
+                        <img src="http://phptravels.net/uploads/global/logo.png">
+                        <!-- <a href="{{url('/')}}" title="Travelo - home">
                             <img src="images/logo.png" alt="Travelo HTML5 Template" />
-                        </a>
+                        </a> -->
                     </h1>
                     
                     <nav id="main-menu" role="navigation">
                         <ul class="menu">
                             <li class="menu-item active">
-                                <a href="{{url('/')}}"><b>หน้าแรก</b></a>
+                                <a href="{{url('/')}}" class="menu-font">หน้าแรก</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('tour')}}"><b>ทริปท่องเที่ยว</b></a>
+                                <a href="{{url('tour')}}" class="menu-font">ทริปท่องเที่ยว</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('car')}}"><b>รถเช่า</b></a>
+                                <a href="{{url('car')}}" class="menu-font">รถเช่า</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('about')}}"><b>เกี่ยวกับเรา</b></a>
+                                <a href="{{url('about')}}" class="menu-font">เกี่ยวกับเรา</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('faq')}}"><b>คำถามที่พบบ่อย</b></a>
+                                <a href="{{url('faq')}}" class="menu-font">คำถามที่พบบ่อย</a>
                             </li>
                             <li class="menu-item">
-                                <a href="{{url('contact')}}"><b>ติดต่อ</b></a>
+                                <a href="{{url('contact')}}" class="menu-font">ติดต่อ</a>
                             </li>
                             
                         </ul> 

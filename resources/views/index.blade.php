@@ -8,7 +8,7 @@
 <section id="content" class="slideshow-bg">
     <div id="slideshow">
         <div class="flexslider">
-            <ul class="slides" style="background: #414141;">
+            <ul class="slides" style="background-image: url('http://phptravels.net/uploads/images/slider/67qrxnp6yhc8w80.jpg'); background-repeat: no-repeat;background-size: 100% 600px;object-fit: cover;">
                 <li>
                     <div class="slidebg" style="background-image: url('http://placehold.it/2080x1214');"></div>
                 </li>
@@ -52,13 +52,13 @@
                     
                     <div class="search-tab-content">
                         <div class="tab-pane fade active in" id="hotels-tab">
-                            <form action="hotel-list-view.html" method="post">
+                            <form action="{{url('tour')}}">
                                 <h4 class="title">คำค้นหา</h4>
                                 <div class="row">
-                                    <div class="form-group col-sm-6 col-md-3">
+                                    <div class="form-group col-sm-9 col-md-9">
                                         <input type="text" class="input-text full-width" placeholder="เมื่อง, ย่าน, ทริปท่องเที่ยว..." />
                                     </div>
-                                    <div class="form-group col-sm-6 col-md-4">
+                                    <div class="form-group col-sm-3 col-md-3">
                                         <div class="row">
                                             <div class="col-xs-6">
                                                 <div class="datepicker-wrap">
@@ -66,36 +66,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                <div class="datepicker-wrap">
-                                                    <input type="text" name="date_to" class="input-text full-width" placeholder="Check Out" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group col-md-5">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="selector">
-                                                    <select class="full-width">
-                                                        <option value="1">1 Room</option>
-                                                        <option value="2">2 Rooms</option>
-                                                        <option value="3">3 Rooms</option>
-                                                        <option value="4">4 Rooms</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="selector">
-                                                    <select class="full-width">
-                                                        <option value="1">1 Guest</option>
-                                                        <option value="2">2 Guests</option>
-                                                        <option value="3">3 Guests</option>
-                                                        <option value="4">4 Guests</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <button type="submit" class="full-width">SEARCH NOW</button>
+                                                <button type="submit" class="button-bule full-width"><i class="fa fa-search-plus" aria-hidden="true"></i> ค้นหา</button>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +75,7 @@
                         </div>
                         
                         <div class="tab-pane fade" id="cars-tab">
-                            <form action="car-list-view.html" method="post">
+                            <form action="{{url('car')}}">
                                 <h4 class="title">Where do you want to go?</h4>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -192,17 +163,16 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button class="full-width">SERACH NOW</button>
+                                                <button class="button-bule full-width"><i class="fa fa-search-plus" aria-hidden="true"></i> ค้นหา</button>
                                             <div class="col-xs-6 pull-right">
                                                 <label>&nbsp;</label>
-                                                <button class="full-width icon-check">SERACH NOW</button>
+                                                
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
-<<<<<<< HEAD
                     
                     </div>
                 </div>
@@ -213,6 +183,10 @@
     
 </section>
 
+<section class="features">
+
+</section>
+
 <section id="content" class="gray-area">
     <div class="container shortcode">
         <div class="block">
@@ -221,7 +195,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://placehold.it/270x160" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/75043_1.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$490</span>
@@ -232,7 +206,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://placehold.it/270x160" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/588989_2.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$170</span>
@@ -243,7 +217,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://placehold.it/270x160" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/637176_3.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$130</span>
@@ -254,7 +228,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://placehold.it/270x160" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/94178_4.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -265,7 +239,7 @@
             </div>
         </div>
         <div class="block">
-            <h1>Carousel Style 02</h1>
+            <h2>Carousel Style 02</h2>
             <div class="image-carousel style3 flex-slider" data-item-width="170" data-item-margin="30">
                 <ul class="slides image-box style9">
                     <li>
