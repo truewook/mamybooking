@@ -66,7 +66,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button type="submit" class="button-bule full-width"><i class="fa fa-search-plus" aria-hidden="true"></i> ค้นหา</button>
+                                                <button type="submit" class="button-bule full-width">ค้นหา</button>
                                             </div>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-xs-6">
-                                                <button class="button-bule full-width"><i class="fa fa-search-plus" aria-hidden="true"></i> ค้นหา</button>
+                                                <button class="button-bule full-width">ค้นหา</button>
                                             <div class="col-xs-6 pull-right">
                                                 <label>&nbsp;</label>
                                                 
@@ -184,13 +184,16 @@
 </section>
 
 <section class="features">
-
+<div class="wrapper">
+       <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div></div>
+</div>​
 </section>
 
 <section id="content" class="gray-area">
     <div class="container shortcode">
         <div class="block">
             <br>
+            <h3>ทริปท่องเที่ยวที่เราคัดสรรค์</h3>
             <div class="row image-box style1">
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
@@ -201,6 +204,7 @@
                             <span class="price"><small>FROM</small>$490</span>
                             <h4 class="box-title">Atlantis - The Palm<small>Paris</small></h4>
                         </div>
+                        <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div></div>
                     </article>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -229,6 +233,50 @@
                     <article class="box">
                         <figure>
                             <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/94178_4.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/596771_5.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/100617_6.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/964202_7.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/731415_8.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -382,7 +430,7 @@
             </div>
         </div>
     </div>
-    <div class="global-map-area promo-box parallax" data-stellar-background-ratio="0.5">
+    <div class="global-map-area promo-box parallax" data-stellar-background-ratio="0.5" style="">
         <div class="container">
             <div class="content-section description pull-right col-sm-9">
                 <div class="table-wrapper hidden-table-sm">

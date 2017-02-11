@@ -1342,7 +1342,7 @@ img.full-width {
 }
 
 .global-map-area {
-  background: url("http://placehold.it/2080x1000") no-repeat;
+  background: url("http://phptravels.net/uploads/images/slider/67qrxnp6yhc8w80.jpg") no-repeat;
 }
 .global-map-area .description p {
   color: #7c9abd;
@@ -8444,6 +8444,7 @@ ul.search-tabs li.active a {
 }
 .search-box-wrapper.style2 .search-box > ul.search-tabs li > a span {
   vertical-align: middle;
+  font-size:15px;
 }
 .search-box-wrapper.style2 .search-box > ul.search-tabs li > a:hover i:before {
   -webkit-animation: toTopFromBottom 0.35s forwards;
@@ -8483,7 +8484,8 @@ ul.search-tabs li.active a {
   color: #d1d1d1;
 }
 .search-box-wrapper.style2 .search-tab-content button {
-  font-size: 1.1667em;
+  /*font-size: 1.1667em;*/
+  font-size:15px;
   font-weight: bold;
 }
 

@@ -4,12 +4,12 @@
 <!--[if gt IE 9]><!-->  <html> <!--<![endif]-->
 <head>
     <!-- Page Title -->
-    <title>Travelo - Travel, Tour Booking HTML5 Template</title>
+    <title>Mamybooking.com</title>
     
     <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Travelo - Travel, Tour Booking HTML5 Template">
+    <meta name="keywords" content="travel,car-rent" />
+    <meta name="description" content="Travel and Car-rent booking date start date end">
     <meta name="author" content="SoapTheme">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
