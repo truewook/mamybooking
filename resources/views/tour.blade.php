@@ -161,7 +161,7 @@
 		                            <article class="box">
 		                                <figure>
 		                                    <a href="#" class="hover-effect">
-		                                        <img src="http://placehold.it/570x270" width="100%" height="auto" alt="">
+		                                        <img src="{{asset('images/HorseShoe1-1024x737-1-400x270.png')}}" width="100%" height="auto" alt="">
 		                                    </a>
 		                                </figure>
 		                                <div class="details">

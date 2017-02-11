@@ -6225,6 +6225,9 @@ ul.check-circle li:before {
   background-repeat: no-repeat;
   background-size: auto auto;
   overflow: hidden;
+
+
+  padding-bottom: 15px;
 }
 
 /* 2.24. Page Loader ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

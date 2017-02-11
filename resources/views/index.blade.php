@@ -198,7 +198,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/75043_1.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/294159_nile.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$490</span>
@@ -210,7 +210,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/588989_2.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/thailand.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$170</span>
@@ -221,7 +221,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/637176_3.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/hongkong.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$130</span>
@@ -232,7 +232,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/94178_4.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/211701_delhi.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
