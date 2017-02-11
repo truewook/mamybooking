@@ -87,47 +87,27 @@
             <div class="topnav hidden-xs">
                 <div class="container">
                     <ul class="quick-menu pull-left">
-                        <li><a href="#">MY ACCOUNT</a></li>
+                        @if (Auth::guest())
+                       
+                        @else
+                         <li><a href="#">MY ACCOUNT</a></li>
+                        @endif
                         <li class="ribbon">
-                            <a href="#">English</a>
+                            <a href="#">ไทย</a>
                             <ul class="menu mini">
-                                <li><a href="#" title="Dansk">Dansk</a></li>
-                                <li><a href="#" title="Deutsch">Deutsch</a></li>
-                                <li class="active"><a href="#" title="English">English</a></li>
-                                <li><a href="#" title="Español">Español</a></li>
-                                <li><a href="#" title="Français">Français</a></li>
-                                <li><a href="#" title="Italiano">Italiano</a></li>
-                                <li><a href="#" title="Magyar">Magyar</a></li>
-                                <li><a href="#" title="Nederlands">Nederlands</a></li>
-                                <li><a href="#" title="Norsk">Norsk</a></li>
-                                <li><a href="#" title="Polski">Polski</a></li>
-                                <li><a href="#" title="Português">Português</a></li>
-                                <li><a href="#" title="Suomi">Suomi</a></li>
-                                <li><a href="#" title="Svenska">Svenska</a></li>
+                                <li class="active"><a href="#" title="th">ไทย</a></li>
+                                <li class=""><a href="#" title="English">English</a></li>
+                              
                             </ul>
                         </li>
                     </ul>
                     <ul class="quick-menu pull-right">
-                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
-                        <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
-                        <li class="ribbon currency">
-                            <a href="#" title="">USD</a>
-                            <ul class="menu mini">
-                                <li><a href="#" title="AUD">AUD</a></li>
-                                <li><a href="#" title="BRL">BRL</a></li>
-                                <li class="active"><a href="#" title="USD">USD</a></li>
-                                <li><a href="#" title="CAD">CAD</a></li>
-                                <li><a href="#" title="CHF">CHF</a></li>
-                                <li><a href="#" title="CNY">CNY</a></li>
-                                <li><a href="#" title="CZK">CZK</a></li>
-                                <li><a href="#" title="DKK">DKK</a></li>
-                                <li><a href="#" title="EUR">EUR</a></li>
-                                <li><a href="#" title="GBP">GBP</a></li>
-                                <li><a href="#" title="HKD">HKD</a></li>
-                                <li><a href="#" title="HUF">HUF</a></li>
-                                <li><a href="#" title="IDR">IDR</a></li>
-                            </ul>
-                        </li>
+                        @if (Auth::guest())
+                        <li><a href="#travelo-login" class="soap-popupbox">เข้าสู่ระบบ</a></li>
+                        <li><a href="#travelo-signup" class="soap-popupbox">สมัครสมาชิก</a></li>
+                        @else
+                        @endif
+                       
                     </ul>
                 </div>
             </div>
@@ -140,10 +120,10 @@
 
                 <div class="container">
                     <h1 class=" navbar-brand">
-                        <img src="http://phptravels.net/uploads/global/logo.png">
-                        <!-- <a href="{{url('/')}}" title="Travelo - home">
+                        <!-- <img src="http://phptravels.net/uploads/global/logo.png"> -->
+                        <a href="{{url('/')}}" title="Travelo - home">
                             <img src="images/logo.png" alt="Travelo HTML5 Template" />
-                        </a> -->
+                        </a>
                     </h1>
                     
                     <nav id="main-menu" role="navigation">
@@ -409,41 +389,13 @@
                         <li class="ribbon language menu-color-skin">
                             <a href="#" data-toggle="collapse">ENGLISH</a>
                             <ul class="menu mini">
-                                <li><a href="#" title="Dansk">Dansk</a></li>
-                                <li><a href="#" title="Deutsch">Deutsch</a></li>
+                                <li><a href="#" title="Dansk">ไทย</a></li>
                                 <li class="active"><a href="#" title="English">English</a></li>
-                                <li><a href="#" title="Español">Español</a></li>
-                                <li><a href="#" title="Français">Français</a></li>
-                                <li><a href="#" title="Italiano">Italiano</a></li>
-                                <li><a href="#" title="Magyar">Magyar</a></li>
-                                <li><a href="#" title="Nederlands">Nederlands</a></li>
-                                <li><a href="#" title="Norsk">Norsk</a></li>
-                                <li><a href="#" title="Polski">Polski</a></li>
-                                <li><a href="#" title="Português">Português</a></li>
-                                <li><a href="#" title="Suomi">Suomi</a></li>
-                                <li><a href="#" title="Svenska">Svenska</a></li>
                             </ul>
                         </li>
-                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
-                        <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
-                        <li class="ribbon currency menu-color-skin">
-                            <a href="#">USD</a>
-                            <ul class="menu mini">
-                                <li><a href="#" title="AUD">AUD</a></li>
-                                <li><a href="#" title="BRL">BRL</a></li>
-                                <li class="active"><a href="#" title="USD">USD</a></li>
-                                <li><a href="#" title="CAD">CAD</a></li>
-                                <li><a href="#" title="CHF">CHF</a></li>
-                                <li><a href="#" title="CNY">CNY</a></li>
-                                <li><a href="#" title="CZK">CZK</a></li>
-                                <li><a href="#" title="DKK">DKK</a></li>
-                                <li><a href="#" title="EUR">EUR</a></li>
-                                <li><a href="#" title="GBP">GBP</a></li>
-                                <li><a href="#" title="HKD">HKD</a></li>
-                                <li><a href="#" title="HUF">HUF</a></li>
-                                <li><a href="#" title="IDR">IDR</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#travelo-login" class="soap-popupbox">เข้าสู่ระบบ</a></li>
+                        <li><a href="#travelo-signup" class="soap-popupbox">สมัครสมาชิก</a></li>
+                        
                     </ul>
                     
                 </nav>

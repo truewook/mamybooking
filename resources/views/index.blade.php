@@ -35,8 +35,9 @@
     </div>
     <div class="container">
         <div id="main">
-            <h1 class="page-title f20">มั่นใจไปกับเรา MamyBooking</h1>
-            <h2 class="page-description col-md-6 no-float no-padding">มั่นใจไปกับเรา MamyBooking</h2>
+            <center><h1 class="page-title f20">มั่นใจไปกับเรา MamyBooking</h1></center>
+            <div class="row"><div class="col-md-4 col-md-offset-4"><hr></div><div class="col-md-4"></div></div>
+            <center><h2 class="page-description col-md-6 no-float no-padding">มั่นใจไปกับเรา MamyBooking</h2></center>
             <div class="search-box-wrapper style2">
                 <div class="search-box">
                     <ul class="search-tabs clearfix">
