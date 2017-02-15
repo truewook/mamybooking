@@ -22,12 +22,23 @@ Route::resource('tour','TourController');
 Route::resource('car','CarController');
 Route::get('faq','FaqController@index');
 Route::get('about','AboutController@index');
-Route::get('contact','ContactController@index');
+Route::resource('contact','ContactController');
 
 Route::get('content','ContentController@index');
 
 Route::resource('dashboard','Corporate\DashboardController');
 
+Route::get('dashBoardagency', function () {
+    return view('dashBoardAgency');
+});
+
+Route::get('dashBoardindividal', function () {
+    return view('dashBoardIndividal');
+});
+
+Route::get('dashBoardcustomer', function () {
+    return view('dashBoardCustomer');
+});
 
 Auth::routes();
 // register

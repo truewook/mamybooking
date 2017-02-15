@@ -117,9 +117,9 @@
 	    <div class="row">
 	    	<div class="col-md-12">
 	    		<div class="travelo-box">
-                    <form class="contact-form" action="contact-us-handler.php" method="post" onsubmit="return false;">
+                    <form class="contact-form" action="{{url('contact')}}" method="post">
                         <h4 class="box-title">Send us a Message</h4>
-                        <div class="alert small-box" style="display: none;"></div>
+                        <div class="alert small-box" style="display: block;"></div>
                         <div class="row form-group">
                             <div class="col-xs-6">
                                 <label>Your Name</label>
@@ -141,6 +141,13 @@
 	    </div>
 	</div>
 <section>
+
+<form action="{{url('contact')}}" method="post">
+    <input type="text" name="name">
+    <input type="text" name="email">
+    <input type="text" name="message">
+    <button st></button>
+</form>
 @endsection
 
 @section('script')
