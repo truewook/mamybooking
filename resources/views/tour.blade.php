@@ -26,9 +26,9 @@
                         <div class="toggle-container filters-container">
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#modify-search-panel" class="collapsed">Quick Search</a>
+                                    <a data-toggle="collapse" href="#modify-search-panel" class="" aria-expanded="true">Quick Search</a>
                                 </h4>
-                                <div id="modify-search-panel" class="panel-collapse collapse">
+                                <div id="modify-search-panel" class="panel-collapse collapse in">
                                     <div class="panel-content">
                                         <form method="post">
                                             <div class="form-group">
@@ -48,9 +48,9 @@
 
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#price-filter" class="collapsed">Price</a>
+                                    <a data-toggle="collapse" href="#price-filter" class="" aria-expanded="true">Price</a>
                                 </h4>
-                                <div id="price-filter" class="panel-collapse collapse">
+                                <div id="price-filter" class="panel-collapse collapse in">
                                     <div class="panel-content">
                                         <div id="price-range"></div>
                                         <br />
@@ -82,9 +82,9 @@
                             
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#cartype-filter" class="collapsed">Car Type</a>
+                                    <a data-toggle="collapse" href="#cartype-filter" class="" aria-expanded="true">Car Type</a>
                                 </h4>
-                                <div id="cartype-filter" class="panel-collapse collapse filters-container">
+                                <div id="cartype-filter" class="panel-collapse collapse filters-container in">
                                     <div class="panel-content">
                                         <ul class="check-square filters-option">
                                             <li><a href="#">Full Size<small>(10)</small></a></li>
@@ -102,9 +102,9 @@
                             
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#car-rental-agent-filter" class="collapsed">Car Rental Agent</a>
+                                    <a data-toggle="collapse" href="#car-rental-agent-filter" class="" aria-expanded="true"">Car Rental Agent</a>
                                 </h4>
-                                <div id="car-rental-agent-filter" class="panel-collapse collapse">
+                                <div id="car-rental-agent-filter" class="panel-collapse collapse in">
                                     <div class="panel-content">
                                         <ul class="check-square filters-option">
                                             <li><a href="#">Fox Rent A Car<small>(08)</small></a></li>
@@ -122,9 +122,9 @@
                             
                             <div class="panel style1 arrow-right">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#car-preferences-filter" class="collapsed">Car Preferences</a>
+                                    <a data-toggle="collapse" href="#car-preferences-filter" class="" aria-expanded="true">Car Preferences</a>
                                 </h4>
-                                <div id="car-preferences-filter" class="panel-collapse collapse">
+                                <div id="car-preferences-filter" class="panel-collapse collapse in">
                                     <div class="panel-content">
                                         <ul class="check-square filters-option">
                                             <li><a href="#">Passenger Quantity</a></li>
@@ -160,7 +160,7 @@
 		                        <div class="col-sm-6 col-md-6">
 		                            <article class="box">
 		                                <figure>
-		                                    <a href="#" class="hover-effect">
+		                                    <a href="#">
 		                                        <img src="{{asset('images/HorseShoe1-1024x737-1-400x270.png')}}" width="100%" height="auto" alt="">
 		                                    </a>
 		                                </figure>
