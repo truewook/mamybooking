@@ -10,6 +10,9 @@ class Car extends Model
         'car_agency_id', 'car_generation_id', 'car_category_id','seat','door','bag_loadable','air_condition','automatic','net_rate','credit_card_fees','return_slowly','cancellation_before','active'
     ];
 
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
 
     public $timestamps = true;
 }

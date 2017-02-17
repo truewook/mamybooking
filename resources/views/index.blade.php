@@ -199,7 +199,103 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/294159_nile.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/294159_nile.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$490</span>
+                            <h4 class="box-title">Atlantis - The Palm<small>Paris</small></h4>
+                        </div>
+                        <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWSฟหกดฟหกด</div></div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/thailand.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$170</span>
+                            <h4 class="box-title">Hilton Hotel<small>LONDON</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/hongkong.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$130</span>
+                            <h4 class="box-title">MGM Grand<small>LAS VEGAS</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/211701_delhi.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/596771_5.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/100617_6.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/964202_7.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/731415_8.jpg" alt="" width="270" height="160" /></a>
+                        </figure>
+                        <div class="details">
+                            <span class="price"><small>FROM</small>$290</span>
+                            <h4 class="box-title">Crown Casino<small>ASUTRALIA</small></h4>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <br>
+            <h3>รถเช่าที่เราคัดสรรค์</h3>
+            <div class="row image-box style1">
+                <div class="col-sm-6 col-md-3">
+                    <article class="box">
+                        <figure>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/294159_nile.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$490</span>
@@ -211,7 +307,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/thailand.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/thailand.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$170</span>
@@ -222,7 +318,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/hongkong.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/hongkong.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$130</span>
@@ -233,7 +329,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/211701_delhi.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/tours/slider/thumbs/211701_delhi.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -244,7 +340,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/596771_5.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/596771_5.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -255,7 +351,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/100617_6.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/100617_6.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -266,7 +362,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/964202_7.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/964202_7.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -277,7 +373,7 @@
                 <div class="col-sm-6 col-md-3">
                     <article class="box">
                         <figure>
-                            <a href="#" title="" class="hover-effect"><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/731415_8.jpg" alt="" width="270" height="160" /></a>
+                            <a href="#" title="" class=""><img src="http://phptravels.net/uploads/images/hotels/slider/thumbs/731415_8.jpg" alt="" width="270" height="160" /></a>
                         </figure>
                         <div class="details">
                             <span class="price"><small>FROM</small>$290</span>
@@ -287,71 +383,7 @@
                 </div>
             </div>
         </div>
-        <div class="block">
-            <h2>Carousel Style 02</h2>
-            <div class="image-carousel style3 flex-slider" data-item-width="170" data-item-margin="30">
-                <ul class="slides image-box style9">
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                            
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="box">
-                            <figure>
-                                <a href="#" title="" class="hover-effect yellow"><img src="http://placehold.it/170x160" alt="" width="170" height="160" /></a>
-                            </figure>
-                        </article>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
+
 
         <div class="block image-box style6">
             <article class="box">
@@ -431,35 +463,6 @@
             </div>
         </div>
     </div>
-    <div class="global-map-area promo-box parallax" data-stellar-background-ratio="0.5" style="">
-        <div class="container">
-            <div class="content-section description pull-right col-sm-9">
-                <div class="table-wrapper hidden-table-sm">
-                    <div class="table-cell">
-                        <h2 class="m-title" style="font-size: 18px !important;">
-                            ลงทะเบียนกับ MAMYBOOKING.COM เพื่อรับข่าวสารดีลสุดพิเศษจากเรา<br /><em>และโอกาสในการจองตั๋วเครื่องบินพร้อมที่พักและทริปท่องเที่ยวราคาพิเศษอีกมากมาย</em>
-                        </h2>
-                    </div>
-                    <div class="table-cell action-section col-md-4 no-float">
-                        <form>
-                            <div class="row">
-                                <div class="col-xs-6 col-md-12">
-                                    <input type="text" class="input-text input-large full-width" value="" placeholder="ใส่อีเมล์ของคุณที่นี่" />
-                                </div>
-                                <div class="col-xs-6 col-md-12">
-                                    <button class="full-width btn-large">รับข่าวสาร</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="image-container col-sm-4">
-                <img src="http://placehold.it/342x258" alt="" width="342" height="258" />
-            </div>
-        </div>
-    </div>
-
 </section>
 
 @endsection

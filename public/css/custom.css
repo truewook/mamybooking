@@ -136,7 +136,7 @@
 }
 
 .ribbon-wrapper-green {
-  width: 85px;
+  width: 200px;
   height: 88px;
   overflow: hidden;
   position: absolute;
@@ -154,7 +154,7 @@
   padding: 7px 0;
   left: -5px;
   top: 15px;
-  width: 120px;
+  width: 150px;
   background-color: rgba(53, 122, 232, 0.64);
   color:#fff;
 }

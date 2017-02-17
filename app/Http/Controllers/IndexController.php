@@ -15,7 +15,7 @@ class IndexController extends Controller
 
     public function create()
     {
-        //
+       
     }
 
     public function store(Request $request)
@@ -42,4 +42,5 @@ class IndexController extends Controller
     {
         //
     }
+
 }
