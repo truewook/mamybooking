@@ -125,7 +125,6 @@
                             <img src="{{URL::to('/images/logo.png')}}" alt="Travelo HTML5 Template" />
                         </a>
 
-                        {{getControllerName()}}
                     </h1>
 
 

@@ -25,7 +25,6 @@ class TourController extends Controller
 
     public function show(Request $request, $id)
     {
-
         return view('tour/detail');
     }
 

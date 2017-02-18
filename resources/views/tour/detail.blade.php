@@ -1,14 +1,14 @@
-@extends('layouts.master')
+ @extends('layouts.master')
 
 @section('style')
 
 @endsection
 
 @section('content')
-        <div class="page-title-container">
+ <div class="page-title-container">
             <div class="container">
                 <div class="page-title pull-left">
-                    <h2 class="entry-title">Rome City Tour</h2>
+                    <h2 class="entry-title">ทัวร์ 3 เกาะของระนอง, ทัวร์4 เกาะหัวใจมรกต 3วัน 2คืน</h2>
                 </div>
                 <ul class="breadcrumbs pull-right">
                     <li><a href="#">HOME</a></li>
@@ -22,62 +22,60 @@
             <div class="container tour-detail-page">
                 <div class="row">
                     <div id="main" class="col-md-9">
-                        <div class="featured-image">
-                            <img src="http://placehold.it/870x442" alt="" />
+                        <div class="featured-gallery image-box">
+                            <span class="discount"><span class="discount-text">10% Discount</span></span>
+                            <div class="flexslider photo-gallery style1" id="post-slideshow1" data-sync="#post-carousel1" data-func-on-start="showTourDetailedDiscount">
+                                <ul class="slides">
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="flexslider image-carousel style1" id="post-carousel1"  data-animation="slide" data-item-width="70" data-item-margin="10" data-sync="#post-slideshow1">
+                                <ul class="slides">
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div id="tour-details" class="travelo-box">
-                            <div class="intro small-box table-wrapper full-width hidden-table-sms">
-                                <div class="col-sm-4 table-cell travelo-box">
+                            <div class="intro2 small-box border-box table-wrapper hidden-table-sms">
+                                <div class="image-container table-cell"><img src="http://placehold.it/166x104" alt=""></div>
+                                <div class="table-cell">
                                     <dl class="term-description">
                                         <dt>Location:</dt><dd>Rome</dd>
                                         <dt>Available Seats:</dt><dd>45</dd>
                                         <dt>Duration:</dt><dd>1 Day</dd>
                                         <dt>Price:</dt><dd>$534</dd>
-                                        <dt>Tour Days</dt><dd>3 Days</dd>
-                                        <dt>Discount:</dt><dd>10% Off</dd>
                                     </dl>
                                 </div>
-                                <div class="col-sm-8 table-cell">
-                                    <div class="detailed-features">
-                                        <div class="price-section clearfix">
-                                            <div class="details">
-                                                <h4 class="box-title">Rome City Tour<small>3 days tour</small></h4>
-                                            </div>
-                                            <div class="details">
-                                                <span class="price">$534</span>
-                                                <a href="tour-booking.html" class="button green btn-small uppercase">Book Tour</a>
-                                            </div>
-                                        </div>
-                                        <div class="flights table-wrapper">
-                                            <div class="table-row">
-                                                <div class="table-cell">
-                                                    <h4 class="box-title">Paris to Rome<small>27 Jan 2015</small></h4>
-                                                </div>
-                                                <div class="table-cell">
-                                                    <i class="icon soap-icon-plane-right take-off"></i>
-                                                    <dl><dt>Departs</dt><dd>10:00 AM</dd></dl>
-                                                </div>
-                                                <div class="table-cell">
-                                                    <i class="icon soap-icon-plane-right landing"></i>
-                                                    <dl><dt>Arrives</dt><dd>20:40 PM</dd></dl>
-                                                </div>
-                                            </div>
-                                            <div class="table-row">
-                                                <div class="table-cell">
-                                                    <h4 class="box-title">Rome to Paris<small>30 Jan 2015</small></h4>
-                                                </div>
-                                                <div class="table-cell">
-                                                    <i class="icon soap-icon-plane-right take-off"></i>
-                                                    <dl><dt>Departs</dt><dd>22:10 PM</dd></dl>
-                                                </div>
-                                                <div class="table-cell">
-                                                    <i class="icon soap-icon-plane-right landing"></i>
-                                                    <dl><dt>Arrives</dt><dd>08:50 PM</dd></dl>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="price-section table-cell">
+                                    <div class="price"><small>3 days tour</small><div class="price-per-unit">$534</div></div>
+                                    <a href="tour-booking.html" class="button green btn-small uppercase">Book Tour</a>
                                 </div>
                             </div>
 
@@ -156,5 +154,4 @@
                 </div>
             </div>
         </section>
-
-@endsection
+        @endsection

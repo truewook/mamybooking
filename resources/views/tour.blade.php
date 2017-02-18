@@ -32,7 +32,7 @@
                                     <div class="panel-content">
                                         <form method="post">
                                             <div class="form-group">
-                                                <label>คำค้น</label>
+                                                <label>@lang('tour.Keyword')</label>
                                                 <input type="text" class="input-text full-width" placeholder="" value="" />
                                             </div>
                                             <div class="form-group">
@@ -160,7 +160,7 @@
 		                        <div class="col-sm-6 col-md-6">
 		                            <article class="box">
 		                                <figure>
-		                                    <a href="{{URL::to('/tour/show')}}">
+		                                    <a href="{{URL::to('/tour/detail/1')}}">
 		                                        <img src="{{asset('images/HorseShoe1-1024x737-1-400x270.png')}}" width="100%" height="auto" alt="">
 		                                    </a>
 		                                </figure>
