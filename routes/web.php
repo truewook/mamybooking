@@ -19,6 +19,12 @@ Route::get('lang/{lang}',function($lang){
 
 /**/
 Route::resource('tour','TourController');
+
+Route::group(['prefix' => 'tour'], function()
+{
+    Route::get('detail/{id}', 'TourController@show');
+});
+
 Route::resource('car','CarController');
 Route::get('faq','FaqController@index');
 Route::get('about','AboutController@index');

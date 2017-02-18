@@ -122,28 +122,32 @@
                     <h1 class=" navbar-brand">
                         <!-- <img src="http://phptravels.net/uploads/global/logo.png"> -->
                         <a href="{{url('/')}}" title="Travelo - home">
-                            <img src="images/logo.png" alt="Travelo HTML5 Template" />
+                            <img src="{{URL::to('/images/logo.png')}}" alt="Travelo HTML5 Template" />
                         </a>
+
+                        {{getControllerName()}}
                     </h1>
+
+
                     
                     <nav id="main-menu" role="navigation">
                         <ul class="menu">
-                            <li class="menu-item active">
+                            <li class="menu-item {{getControllerName()=='IndexController'?'active':''}}">
                                 <a href="{{url('/')}}" class="menu-font">หน้าแรก</a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{getControllerName()=='TourController'?'active':''}}">
                                 <a href="{{url('tour')}}" class="menu-font">ทริปท่องเที่ยว</a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{getControllerName()=='CarController'?'active':''}}">
                                 <a href="{{url('car')}}" class="menu-font">รถเช่า</a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{getControllerName()=='AboutController'?'active':''}}">
                                 <a href="{{url('about')}}" class="menu-font">เกี่ยวกับเรา</a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{getControllerName()=='FaqController'?'active':''}}">
                                 <a href="{{url('faq')}}" class="menu-font">คำถามที่พบบ่อย</a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{getControllerName()=='ContactController'?'active':''}}">
                                 <a href="{{url('contact')}}" class="menu-font">ติดต่อ</a>
                             </li>
                             

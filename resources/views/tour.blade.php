@@ -160,7 +160,7 @@
 		                        <div class="col-sm-6 col-md-6">
 		                            <article class="box">
 		                                <figure>
-		                                    <a href="#">
+		                                    <a href="{{URL::to('/tour/show')}}">
 		                                        <img src="{{asset('images/HorseShoe1-1024x737-1-400x270.png')}}" width="100%" height="auto" alt="">
 		                                    </a>
 		                                </figure>
