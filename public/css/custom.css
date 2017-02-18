@@ -174,3 +174,26 @@
 .ribbon-green:after {
   right: 0;
 }​
+.tab-container1 ul.tabs1 li.active {
+    color: #fff;
+    background: #357ae8;
+}
+.tab-container1 ul.tabs1 li.active > a, .tab-container1 ul.tabs1 li:hover > a {
+    color: #fff;
+    background: #357ae8;
+}
+.tab-container1 ul.tabs1 li a {
+    color: #fff;
+    display: block;
+    padding: 0 20px;
+    background: #d9d9d9;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/*.tab-container.full-width-style.arrow-left ul.tabs li.active a*/
