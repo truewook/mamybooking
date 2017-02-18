@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-require app_path().'/Helpers/helpers.php';
 
 class TourController extends Controller
 {
@@ -26,7 +25,7 @@ class TourController extends Controller
 
     public function show(Request $request, $id)
     {
-        
+
         return view('tour/detail');
     }
 

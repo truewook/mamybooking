@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-require app_path().'/Helpers/helpers.php';
 class IndexController extends Controller
 {
 
