@@ -22,7 +22,6 @@
             <div id="main">
                 <div class="tab-container full-width-style arrow-left dashboard">
                     <ul class="tabs">
-                        <!-- <li class="active"><a data-toggle="tab" href="#dashboard"><i class="soap-icon-anchor circle"></i>Dashboard</a></li> -->
                         <li class="active"><a data-toggle="tab" href="#profile"><i class="soap-icon-user circle"></i>Profile</a></li>
                         <li class=""><a data-toggle="tab" href="#owner"><i class="soap-icon-businessbag circle"></i>เป็นเจ้าของ</a></li>
                         <li class=""><a data-toggle="tab" href="#settings"><i class="soap-icon-settings circle"></i>Settings</a></li>
@@ -36,19 +35,68 @@
                                         <a title="" href="#"><img width="270" height="263" alt="" src="http://placehold.it/270x263"></a>
                                     </figure>
                                     <div class="details">
-                                        <a href="#" class="button btn-mini pull-right edit-profile-btn">EDIT PROFILE</a>
-                                        <h2 class="box-title fullname">Ton Saengket</h2>
-                                        <dl class="term-description">
-                                            <dt>user name:</dt><dd>agency1</dd>
-                                            <dt>first name:</dt><dd>Ton</dd>
-                                            <dt>last name:</dt><dd>Saengket</dd>
-                                            <dt>phone number:</dt><dd>000-0000-0000</dd>
-                                            <dt>Date of birth:</dt><dd>15 August 1985</dd>
-                                            <dt>Address:</dt><dd>353 Third floor Avenue</dd>
-                                            <dt>Town:</dt><dd>Bangkok</dd>
-                                            <dt>Post code:</dt><dd>12110</dd>
-                                            <dt>Country:</dt><dd>Thailand</dd>
-                                        </dl>
+                                        <div class="col-md-12">
+                                            <a href="#" class="button btn-mini pull-right edit-profile-btn">EDIT PROFILE</a>
+                                            <h2 class="box-title fullname">Ton Saengket</h2>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-horizontal">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="username">user name:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      agency1
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="firstname">first name:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      Ton
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="lastname">last name:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      Saengket
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="phone">Phone:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      000-0000-0000
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="Address">Address:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      7/12 ศรีนครินทร์ ซอย 8
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="Town">Town:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      Bangkok
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="Country">Country:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      Thailand
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="postcode">Post code:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      12110
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-2" for="status">Status:</label>
+                                                    <div class="col-sm-10 label-show">
+                                                      Agency
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </article>
                                 <hr>
@@ -194,6 +242,11 @@
                                             <div class="tab-pane fade in active" id="carTab">
                                                 <div class="row">
                                                     <div class="col-md-12">
+                                                        <a href="#" class="button btn-medium green pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;เพิ่ม</a>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
                                                         <div class="car-list">
                                                             <div class="row image-box car listing-style1">
                                                                 <?php for ($i=1; $i <= 12 ; $i++) { ?>
@@ -216,9 +269,7 @@
                                                                                 </ul>
                                                                             </div>
                                                                             <p class="mile"><span class="skin-color">Mileage:</span> up to 300 miles</p>
-                                                                            <div class="action">
-                                                                                <a class="button btn-mini light-yellow pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Edit</a>
-                                                                            </div>
+                                                                            <a href="#" class="button btn-mini yellow pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Edit</a>
                                                                         </div>
                                                                     </article>
                                                                 </div>
@@ -230,6 +281,11 @@
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="tourTab">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="#" class="button btn-medium green pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;เพิ่ม</a>
+                                                    </div>
+                                                </div>
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="tour-packages add-clearfix image-box">      
@@ -305,51 +361,6 @@
                                 <div class="form-group">
                                     <button class="btn-medium">UPDATE PASSWORD</button>
                                 </div>
-                            </form>
-                            <hr>
-                            <h5 class="skin-color">Change Your Email</h5>
-                            <form>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-6 col-md-4">
-                                        <label>Old email</label>
-                                        <input type="text" class="input-text full-width">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-6 col-md-4">
-                                        <label>Enter New Email</label>
-                                        <input type="text" class="input-text full-width">
-                                    </div>
-                                </div>
-                                <div class="row form-group">
-                                    <div class="col-xs-12 col-sm-6 col-md-4">
-                                        <label>Confirm New Email</label>
-                                        <input type="text" class="input-text full-width">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn-medium">UPDATE EMAIL ADDRESS</button>
-                                </div>
-                            </form>
-                            <hr>
-                            <h5 class="skin-color">Send Me Emails When</h5>
-                            <form>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Travelo has periodic offers and deals on really cool destinations.
-                                    </label>
-                                </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Travelo has fun company news, as well as periodic emails.
-                                    </label>
-                                </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> I have an upcoming reservation.
-                                    </label>
-                                </div>
-                                <button class="btn-medium uppercase">Update All Settings</button>
                             </form>
                         </div>
                     </div>
