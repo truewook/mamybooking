@@ -16,6 +16,8 @@ Route::get('lang/{lang}',function($lang){
 	Session::put('locale', in_array($lang,$available) ? $lang : config::get('app.locale'));
 	return redirect()->back();
 });
+Route::get('auth/facebook', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/facebook/callback', 'Auth\AuthController@handleProviderCallback');
 
 /**/
 Route::resource('tour','TourController');
@@ -47,6 +49,7 @@ Route::get('dashBoardcustomer', function () {
 });
 
 Auth::routes();
+
 // register
 Route::get('register','Auth\RegistrationController@index');
 Route::post('register','Auth\RegistrationController@store');

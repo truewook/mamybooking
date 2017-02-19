@@ -450,8 +450,8 @@
             </div>
             <div id="travelo-login" class="travelo-login-box travelo-box">
                 <div class="login-social">
-                    <a href="#" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
-                    <a href="#" class="button login-googleplus"><i class="soap-icon-googleplus"></i>Login with Google+</a>
+                    <a href="{{url('auth/facebook')}}" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
+                    
                 </div>
                 <div class="seperator"><label>OR</label></div>
                 <form>
