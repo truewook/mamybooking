@@ -12,4 +12,5 @@ return [
 	'community' => 'community',
 	'buy-sell' => 'buy-sell',
 	'Real_Estate' => 'Real Estate',
+	'keyword' => 'Keyword',
 ];

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,300,400');
+.kanit {
+	font-family: 'Kanit', sans-serif;
+}
+.menu-font {
+	font-family: 'Kanit';
+	font-weight: 300;
+	font-size: 14px;
+	color: #333333;
+}
+.menu-font:hover {
+	color: #357ae8;
+}
+#main-menu ul.menu > li > a, .chaser ul.menu > li > a {
+  /*font-weight: normal;*/
+  display: block;
+  padding: 0;
+  height: 68px;
+  line-height: 68px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+#main-menu ul.menu > li.active > a, .chaser ul.menu > li.active > a {
+  color: #357ae8;
+/*  font-weight: 300;*/
+	/*font-weight: 200;*/
+  /*font-weight: normal !important;*/
+  /*font-size: 14px;*/
+}
+#main-menu ul.menu > li:hover > a, .chaser ul.menu > li:hover > a {
+  color: #357ae8;
+}
+.logo-mamy {
+	padding: 0px 0px !important;
+	height: 0px;
+}
+.f20 {
+	font-size: 33px !important;
+}
+.bg-img {
+	background-image: url('../images/banner-mamy.png');
+	width:100%;
+	height: 500px;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.search {
+	margin-top: 100px;
+	background-color: #414141;
+	height: auto;
+	width: 100%;
+	opacity: 0.6;
+}
+.search-wrapper {
+	margin-top: 20px;
+}
+.features {
+    background-color: #fff;
+    color: #062d5d;
+    padding: 30px 0 30px 0;
+}
+.button-bule {
+	background: #357ae8 !important;
+}
+.page-title-container.style4 {
+  background: #fdb714;
+  height: 40px;
+  line-height: 60px;
+  text-align: right;
+  overflow: hidden;
+}
+.page-title-container.style4 .page-title:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #fdb714;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+.page-title-container.style4 .page-title .entry-title {
+  color: inherit;
+  /*font-style: italic;*/
+  line-height: 40px;
+  font-size:20px;
+}
+.page-title-container.style4 .page-title i {
+  float: left;
+  font-size: 24px;
+  line-height: 40px;
+  margin-right: 20px;
+  color: #df9207;
+}
+.page-title-container.style4 .page-title:after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fdb714;
+    border-top: 20px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+.page-title-container .breadcrumbs li {
+  float: left;
+  line-height: 40px;
+  display: inline;
+  margin-left: 5px;
+  font-size: 0.8333em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.page-title-container.style4 .breadcrumbs li {
+  line-height: 40px;
+}
+.price {
+  color: #357ae8;
+  font-size: 1.6667em;
+  text-transform: uppercase;
+  float: right;
+  text-align: right;
+  line-height: 1;
+  display: block;
+}
+.wrapper {
+  /*margin: 50px auto;*/
+  width: 280px;
+  height: 70px;
+  z-index: 90;
+}
+
+.ribbon-wrapper-green {
+  width: 200px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top:45%;
+  /*top: -3px;
+  right: -3px;*/
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  /*text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;*/
+  position: absolute;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 150px;
+  background-color: rgba(53, 122, 232, 0.64);
+  color:#fff;
+}
+
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  border-top:   3px solid #6e8900;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-green:before {
+  left: 0;
+}
+.ribbon-green:after {
+  right: 0;
+}​
+.tab-container1 ul.tabs1 li.active {
+    color: #fff;
+    background: #357ae8;
+}
+.tab-container1 ul.tabs1 li.active > a, .tab-container1 ul.tabs1 li:hover > a {
+    color: #fff;
+    background: #357ae8;
+}
+.tab-container1 ul.tabs1 li a {
+    color: #fff;
+    display: block;
+    padding: 0 20px;
+    background: #d9d9d9;
+    font-size: 1em;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.label-show{
+  padding-top: 7px;
+}

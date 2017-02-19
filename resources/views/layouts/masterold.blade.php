@@ -46,6 +46,10 @@
 				  	@endif
 				</select> 
 			
+เปนเพราะตัวใหญ่ป่ะ ไม่แน่ใจเด่วลองแปปครับ
+
+
+ลืมปิด ฮ่าๆ
 
 				<!-- | <font style="font-size:12px;"><a href="{{url('help')}}">{{trans('site.help')}}</a></font>  -->|
 				<font style="font-size:12px;"><a href="{{url('help')}}">{{trans('site.contact')}}</a></font> |

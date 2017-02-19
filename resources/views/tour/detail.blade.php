@@ -26,6 +26,11 @@
                             <span class="discount"><span class="discount-text">10% Discount</span></span>
                             <div class="flexslider photo-gallery style1" id="post-slideshow1" data-sync="#post-carousel1" data-func-on-start="showTourDetailedDiscount">
                                 <ul class="slides">
+                                    <li><a href="pages-blog-read.html"><img src="{{asset('images/tour/demo/HorseShoe1.png')}}" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="{{asset('images/tour/demo/HorseShoe2.png')}}" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="{{asset('images/tour/demo/HorseShoe3.png')}}" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="{{asset('images/tour/demo/HorseShoe4.png')}}" alt=""></a></li>
+                                   <!--  <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
@@ -37,13 +42,16 @@
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
                                     <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
-                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
-                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
-                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li>
+                                    <li><a href="pages-blog-read.html"><img src="http://placehold.it/870x442" alt=""></a></li> -->
                                 </ul>
                             </div>
                             <div class="flexslider image-carousel style1" id="post-carousel1"  data-animation="slide" data-item-width="70" data-item-margin="10" data-sync="#post-slideshow1">
                                 <ul class="slides">
+                                <li><img src="{{asset('images/tour/demo/HorseShoe1.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/tour/demo/HorseShoe2.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/tour/demo/HorseShoe3.png')}}" alt=""></li>
+                                <li><img src="{{asset('images/tour/demo/HorseShoe4.png')}}" alt=""></li>
+                                   <!--  <li><img src="http://placehold.it/70x70" alt="" /></li>
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
@@ -56,8 +64,7 @@
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
                                     <li><img src="http://placehold.it/70x70" alt="" /></li>
-                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
-                                    <li><img src="http://placehold.it/70x70" alt="" /></li>
+                                    <li><img src="http://placehold.it/70x70" alt="" /></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -67,10 +74,10 @@
                                 <div class="image-container table-cell"><img src="http://placehold.it/166x104" alt=""></div>
                                 <div class="table-cell">
                                     <dl class="term-description">
-                                        <dt>Location:</dt><dd>Rome</dd>
-                                        <dt>Available Seats:</dt><dd>45</dd>
-                                        <dt>Duration:</dt><dd>1 Day</dd>
-                                        <dt>Price:</dt><dd>$534</dd>
+                                        <dt>วันเดินทาง:</dt><dd>Daily</dd>
+                                        <dt>ระยะเวลา:</dt><dd>1 Day</dd>
+                                        <dt>ผู้เข้าชม:</dt><dd>250</dd>
+                                        <dt>จำนวนที่ว่าง:</dt><dd>20 seats</dd>
                                     </dl>
                                 </div>
                                 <div class="price-section table-cell">
@@ -95,7 +102,7 @@
                         </div>
                     </div>
                     <div class="sidebar col-md-3">
-                        <div class="travelo-box">
+                        <!-- <div class="travelo-box">
                             <h4 class="box-title">Last Minute Deals</h4>
                             <div class="image-box style14">
                                 <article class="box">
@@ -140,7 +147,7 @@
                                     <p>Nunc cursus libero pur congue arut nimspnty.</p>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                         <div class="travelo-box contact-box">
                             <h4 class="box-title">Need Travelo Help?</h4>
                             <p>We would be more than happy to help you. Our team advisor are 24/7 at your service to help you.</p>

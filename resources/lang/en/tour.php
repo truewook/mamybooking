@@ -13,6 +13,7 @@ return [
     |
     */
 
-    'Keyword' => 'Keyword'
+    'keyword' => 'Keyword',
+    'lang_choose_location' => 'Choose Location'
 
 ];

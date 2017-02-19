@@ -196,4 +196,6 @@
     white-space: nowrap;
 }
 
-/*.tab-container.full-width-style.arrow-left ul.tabs li.active a*/
+.label-show{
+  padding-top: 7px;
+}

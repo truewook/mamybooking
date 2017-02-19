@@ -95,16 +95,16 @@
                         <li class="ribbon">
                             <a href="#">ไทย</a>
                             <ul class="menu mini">
-                                <li class="active"><a href="#" title="th">ไทย</a></li>
-                                <li class=""><a href="#" title="English">English</a></li>
+                                <li class="active"><a href="{{url('lang/th')}}" title="th">ไทย</a></li>
+                                <li class=""><a href="{{url('lang/en')}}" title="English">English</a></li>
                               
                             </ul>
                         </li>
                     </ul>
                     <ul class="quick-menu pull-right">
                         @if (Auth::guest())
-                        <li><a href="#travelo-login" class="soap-popupbox">เข้าสู่ระบบ</a></li>
-                        <li><a href="#travelo-signup" class="soap-popupbox">สมัครสมาชิก</a></li>
+                        <li><a href="#travelo-login" class="soap-popupbox">{{trans('site.login')}}</a></li>
+                        <li><a href="#travelo-signup" class="soap-popupbox">{{trans('site.register')}}</a></li>
                         @else
                         @endif
                        
@@ -157,7 +157,7 @@
                 <nav id="mobile-menu-01" class="mobile-menu collapse">
                     <ul id="mobile-primary-menu" class="menu">
                         <li class="menu-item-has-children">
-                            <a href="index.html">Home</a>
+                            <a href="aaa">Home</a>
                             <ul>
                                 <li><a href="index.html">Home Layout 1</a></li>
                                 <li><a href="homepage2.html">Home Layout 2</a></li>

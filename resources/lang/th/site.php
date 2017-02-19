@@ -12,4 +12,5 @@ return [
 	'community' => 'ชุมชน',
 	'buy-sell' => 'ชื้อ-ขาย',
 	'Real_Estate' => 'อสังหาริมทริพย์',
+	'keyword' => 'คีย์เวริ์ด',
 ];
