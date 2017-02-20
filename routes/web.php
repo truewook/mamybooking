@@ -54,8 +54,8 @@ Auth::routes();
 Route::get('register','Auth\RegistrationController@index');
 Route::post('register','Auth\RegistrationController@store');
 
-Route::get('login','SessionsController@index');
-Route::post('login','SessionsController@store');
+// Route::get('login','SessionsController@index');
+// Route::post('login','SessionsController@store');
 
 Route::get('logout','SessionsController@logout');
 

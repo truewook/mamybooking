@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('menu-faq-active')
+active 
+@endsection
+
 @section('style')
 
 @endsection

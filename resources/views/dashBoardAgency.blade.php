@@ -23,12 +23,17 @@
                 <div class="tab-container full-width-style arrow-left dashboard">
                     <ul class="tabs">
                         <li class="active"><a data-toggle="tab" href="#profile"><i class="soap-icon-user circle"></i>Profile</a></li>
-                        <li class=""><a data-toggle="tab" href="#owner"><i class="soap-icon-businessbag circle"></i>เป็นเจ้าของ</a></li>
+                        <li class=""><a data-toggle="tab" href="#ownercar"><i class="soap-icon-businessbag circle"></i>บริการรถเช่า</a></li>
+                        <li class=""><a data-toggle="tab" href="#ownertour"><i class="soap-icon-businessbag circle"></i>บริการรถทัวร์</a></li>
                         <li class=""><a data-toggle="tab" href="#settings"><i class="soap-icon-settings circle"></i>Settings</a></li>
                     </ul>
                     <div class="tab-content">
                         <!-- profile -->
                         <div id="profile" class="tab-pane fade in active">
+                            <div class="row" style="border-bottom: 1px solid #ddd;">
+                                <div class="col-md-6"><h2 class="kanit">ข้อมูลส่วนตัว</h2></div>
+                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right edit-profile-btn"><i class="fa fa-plus" aria-hidden="true"></i> แก้ไข</a></div>
+                            </div>
                             <div class="view-profile">
                                 <article class="image-box style2 box innerstyle personal-details">
                                     <figure>
@@ -36,7 +41,7 @@
                                     </figure>
                                     <div class="details">
                                         <div class="col-md-12">
-                                            <a href="#" class="button btn-mini pull-right edit-profile-btn">EDIT PROFILE</a>
+                                            <!-- <a href="#" class="button btn-mini pull-right edit-profile-btn">EDIT PROFILE</a> -->
                                             <h2 class="box-title fullname">Ton Saengket</h2>
                                         </div>
                                         <div class="col-md-12">
@@ -230,110 +235,91 @@
                             </div>
                         </div>
                         <!-- end view profile -->
-                        <div id="owner" class="tab-pane fade">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="tab-container1">
-                                        <ul class="tabs1">
-                                            <li class="active"><a href="#carTab" data-toggle="tab">CARS</a></li>
-                                            <li class=""><a href="#tourTab" data-toggle="tab">TOUR</a></li>
-                                        </ul>
-                                        <div class="tab-content full-width">
-                                            <div class="tab-pane fade in active" id="carTab">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <a href="#" class="button btn-medium green pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;เพิ่ม</a>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="car-list">
-                                                            <div class="row image-box car listing-style1">
-                                                                <?php for ($i=1; $i <= 12 ; $i++) { ?>
-                                                                <div class="col-sms-6 col-sm-6 col-md-6">
-                                                                    <article class="box">
-                                                                        <figure>
-                                                                            <a title="" href="#"><img alt=""  src="{{asset('images/Isuzu-Mu-X.jpg')}}"></a>
-                                                                        </figure>
-                                                                        <div class="details">
-                                                                            <span class="price"><small>per day</small>$45.39</span>
-                                                                            <h4 class="box-title">Economy Car<small>bmw mini</small></h4>
-                                                                            <div class="amenities">
-                                                                                <h1> jdfkdjkf </h1>
-                                                                                <ul>
-                                                                                    <li><i class="soap-icon-user circle"></i>4</li>
-                                                                                    <li><i class="soap-icon-suitcase circle"></i>3</li>
-                                                                                    <li><i class="soap-icon-aircon circle"></i>AC</li>
-                                                                                    <li><i class="soap-icon-fueltank circle"></i>12</li>
-                                                                                    <li><i class="soap-icon-fmstereo circle"></i>YES</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                            <p class="mile"><span class="skin-color">Mileage:</span> up to 300 miles</p>
-                                                                            <a href="#" class="button btn-mini yellow pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Edit</a>
-                                                                        </div>
-                                                                    </article>
-                                                                </div>
-                                                                <?php } ?>
-                                                            </div>
-                                                            <a href="#" class="button btn-large full-width uppercase">Load More Packages</a>
-                                                        </div>
-                                                    </div>
+                        <div id="ownercar" class="tab-pane fade">
+                            <div class="row" style="border-bottom: 1px solid #ddd;">
+                                <div class="col-md-6"><h2 class="kanit">รายการ รถเช่า</h2></div>
+                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
+                            </div>
+                            <div class="car-list listing-style3 car">
+                                @for($i=0; $i < 10 ; $i++)
+                                <article class="box tour-box-dashboard">
+                                    <figure class="col-xs-3">
+                                        <span><img alt="" src="http://placehold.it/270x160"></span>
+                                    </figure>
+                                    <div class="details col-xs-9 clearfix">
+                                        <div class="col-sm-8">
+                                            <div class="clearfix">
+                                                <h4 class="box-title">Economy Car<small>bmw mini</small></h4>
+                                                <div class="logo">
+                                                    <img src="http://placehold.it/110x25" alt="" />
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="tourTab">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <a href="#" class="button btn-medium green pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;เพิ่ม</a>
-                                                    </div>
+                                            <div class="amenities">
+                                                <ul>
+                                                    <li><i class="soap-icon-user circle"></i>4</li>
+                                                    <li><i class="soap-icon-suitcase circle"></i>3</li>
+                                                    <li><i class="soap-icon-aircon circle"></i>AC</li>
+                                                    <li><i class="soap-icon-fueltank circle"></i>12</li>
+                                                    <li><i class="soap-icon-fmstereo circle"></i>YES</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-2 character">
+                                            <dl class="">
+                                                <dt class="skin-color">mileage</dt><dd>3000 miles</dd>
+                                                <dt class="skin-color">Pickup Time</dt><dd>5:45 pm</dd>
+                                                <dt class="skin-color">Location</dt><dd>London city</dd>
+                                            </dl>
+                                        </div>
+                                        <div class="action col-xs-6 col-sm-2">
+                                            <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center">แก้ไข</a>
+                                                <a href="{{url('')}}" class="button btn-small red full-width text-center">ลบ</a>
+                                        </div>
+                                    </div>
+                                </article>
+                                @endfor
+                            </div>
+                        </div>
+                        <div id="ownertour" class="tab-pane fade">
+                            <div class="row" style="border-bottom: 1px solid #ddd;">
+                                <div class="col-md-6"><h2 class="kanit">รายการ ทริปท่องเที่ยว</h2></div>
+                                <div class="col-md-6"><a href="{{url('dashboardagency/tour/ceate')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
+                            </div>
+                            
+                            <div class="hotel-list listing-style3 hotel">
+                                @for($i=0; $i < 10 ; $i++)
+                                <article class="box car-box-dashboard">
+                                    <figure class="col-sm-5 col-md-4">
+                                        <a title="" href="ajax/slideshow-popup.html" class="popup-gallery"><img width="270" height="160" alt="" src="http://placehold.it/270x160"></a>
+                                    </figure>
+                                    <div class="details col-sm-7 col-md-8">
+                                        <div>
+                                            <div>
+                                                <h4 class="box-title">Hotel Hilton and Resorts<small><i class="soap-icon-departure yellow-color"></i> Bastille, Paris france</small></h4>
+                                                <div class="amenities">
+                                                    <i class="soap-icon-wifi circle"></i>
+                                                    <i class="soap-icon-fitnessfacility circle"></i>
+                                                    <i class="soap-icon-fork circle"></i>
+                                                    <i class="soap-icon-television circle"></i>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="tour-packages add-clearfix image-box">      
-                                                            <div class="row add-clearfix image-box style1 tour-locations">
-                                                                <?php for ($i=1; $i <= 12 ; $i++) { ?>
-                                                                    
-                                                                <div class="col-sm-6 col-md-6">
-                                                                    <article class="box">
-                                                                        <figure>
-                                                                            <a href="#">
-                                                                                <img src="{{asset('images/HorseShoe1-1024x737-1-400x270.png')}}" width="100%" height="auto" alt="">
-                                                                            </a>
-                                                                        </figure>
-                                                                        <div class="details">
-                                                                            <span class="price">$620</span>
-                                                                            <h4 class="box-title">Hawaii City Tour</h4>
-                                                                            <hr>
-                                                                            <ul class="features check">
-                                                                                <li>City Tour In 3 Hours</li>
-                                                                                <li>Enjoy World Famous Restaurant</li>
-                                                                                <li>Wine Tester Trips</li>
-                                                                                <li>Night Street Life in Downtown </li>
-                                                                            </ul>
-                                                                            <hr>
-                                                                            <div class="text-center">
-                                                                                <div class="time">
-                                                                                    <i class="soap-icon-clock yellow-color"></i>
-                                                                                    <span>01 Nov 2014 - 08 Nov 2014</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="action">
-                                                                                <a class="button btn-mini light-yellow pull-right"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Edit</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </article>
-                                                                </div>
-
-                                                                <?php } ?>
-                                                               
-                                                            </div>
-                                                            <a href="#" class="button btn-large full-width uppercase">Load More Packages</a>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <div>
+                                                <div class="five-stars-container">
+                                                    <span class="five-stars" style="width: 80%;"></span>
                                                 </div>
+                                                <span class="review">270 reviews</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
+                                            <div>
+                                                <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center">แก้ไข</a>
+                                                <a href="{{url('')}}" class="button btn-small red full-width text-center">ลบ</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </article>
+                                @endfor
                             </div>
                         </div>
                         <div id="settings" class="tab-pane fade">

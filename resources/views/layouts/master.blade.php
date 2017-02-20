@@ -131,22 +131,22 @@
                     
                     <nav id="main-menu" role="navigation">
                         <ul class="menu">
-                            <li class="menu-item {{getControllerName()=='IndexController'?'active':''}}">
+                            <li class="menu-item @yield('menu-index-active')">
                                 <a href="{{url('/')}}" class="menu-font">หน้าแรก</a>
                             </li>
-                            <li class="menu-item {{getControllerName()=='TourController'?'active':''}}">
+                            <li class="menu-item @yield('menu-tour-active')">
                                 <a href="{{url('tour')}}" class="menu-font">ทริปท่องเที่ยว</a>
                             </li>
-                            <li class="menu-item {{getControllerName()=='CarController'?'active':''}}">
+                            <li class="menu-item @yield('menu-car-active')">
                                 <a href="{{url('car')}}" class="menu-font">รถเช่า</a>
                             </li>
-                            <li class="menu-item {{getControllerName()=='AboutController'?'active':''}}">
+                            <li class="menu-item @yield('menu-about-active')">
                                 <a href="{{url('about')}}" class="menu-font">เกี่ยวกับเรา</a>
                             </li>
-                            <li class="menu-item {{getControllerName()=='FaqController'?'active':''}}">
+                            <li class="menu-item @yield('menu-faq-active')">
                                 <a href="{{url('faq')}}" class="menu-font">คำถามที่พบบ่อย</a>
                             </li>
-                            <li class="menu-item {{getControllerName()=='ContactController'?'active':''}}">
+                            <li class="menu-item @yield('menu-contact-active')">
                                 <a href="{{url('contact')}}" class="menu-font">ติดต่อ</a>
                             </li>
                             
@@ -454,15 +454,26 @@
                     
                 </div>
                 <div class="seperator"><label>OR</label></div>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="input-text full-width" placeholder="email address">
+                <form method="POST" action="{{ url('/login') }}">
+                    {{ csrf_field() }}
+                    <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                        <input type="text" id="username" name="username" value="{{ old('username') }}" class="input-text full-width" placeholder="email address" required>
+                        @if ($errors->has('username'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('username') }}</strong>
+                            </span>
+                        @endif
+                    </div>
+                    <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                        <input id="password" type="password" name="password" class="input-text full-width" placeholder="password">
+                        @if ($errors->has('password'))
+                            <span class="help-block">
+                                <strong>{{ $errors->first('password') }}</strong>
+                            </span>
+                        @endif
                     </div>
                     <div class="form-group">
-                        <input type="password" class="input-text full-width" placeholder="password">
-                    </div>
-                    <div class="form-group">
-                        <a href="#" class="forgot-password pull-right">Forgot password?</a>
+                        <a href="{{ url('/password/reset') }}" class="forgot-password pull-right">Forgot password?</a>
                         <div class="checkbox checkbox-inline">
                             <label>
                                 <input type="checkbox"> Remember me

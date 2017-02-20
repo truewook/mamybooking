@@ -1,5 +1,10 @@
 @extends('layouts.master')
 
+
+@section('menu-index-active')
+active 
+@endsection
+
 @section('style')
 
 @endsection
