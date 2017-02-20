@@ -32,7 +32,7 @@
                         <div id="profile" class="tab-pane fade in active">
                             <div class="row" style="border-bottom: 1px solid #ddd;">
                                 <div class="col-md-6"><h2 class="kanit">ข้อมูลส่วนตัว</h2></div>
-                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right edit-profile-btn"><i class="fa fa-plus" aria-hidden="true"></i> แก้ไข</a></div>
+                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right edit-profile-btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไข</a></div>
                             </div>
                             <div class="view-profile">
                                 <article class="image-box style2 box innerstyle personal-details">
@@ -272,8 +272,8 @@
                                             </dl>
                                         </div>
                                         <div class="action col-xs-6 col-sm-2">
-                                            <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center">แก้ไข</a>
-                                                <a href="{{url('')}}" class="button btn-small red full-width text-center">ลบ</a>
+                                            <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไข</a>
+                                                <a href="{{url('')}}" class="button btn-small red full-width text-center"><i class="fa fa-minus-circle" aria-hidden="true"></i> ลบ</a>
                                         </div>
                                     </div>
                                 </article>
@@ -313,8 +313,8 @@
                                         <div>
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                             <div>
-                                                <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center">แก้ไข</a>
-                                                <a href="{{url('')}}" class="button btn-small red full-width text-center">ลบ</a>
+                                                <a href="{{url('')}}" class="button btn-small sky-blue1 full-width text-center"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไข</a>
+                                                <a href="{{url('')}}" class="button btn-small red full-width text-center"><i class="fa fa-minus-circle" aria-hidden="true"></i> ลบ</a>
                                             </div>
                                         </div>
                                     </div>

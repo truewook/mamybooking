@@ -189,12 +189,6 @@ active
     
 </section>
 
-<section class="features">
-<div class="wrapper">
-       <div class="ribbon-wrapper-green"><div class="ribbon-green">NEWS</div></div>
-</div>​
-</section>
-
 <section id="content" class="gray-area">
     <div class="container shortcode">
         <div class="block">
@@ -410,35 +404,7 @@ active
 <section id="content" class="gray-area">
     <div class="container shortcode">
         <div class="row">
-            <div class="col-sm-6">
-                <h2>Style 01</h2>
-                <div class="testimonial style1 box">
-                    <ul class="slides ">
-                        <li>
-                            <p class="description">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
-                            <div class="author clearfix">
-                                <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
-                                <h5 class="name">Jessica Brown<small>guest</small></h5>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="description">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
-                            <div class="author clearfix">
-                                <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
-                                <h5 class="name">Lisa Kimberly<small>guest</small></h5>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="description">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
-                            <div class="author clearfix">
-                                <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
-                                <h5 class="name">Jessica Brown<small>guest</small></h5>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <h2>Style 02</h2>
                 <div class="testimonial style2 box">
                     <ul class="slides">
