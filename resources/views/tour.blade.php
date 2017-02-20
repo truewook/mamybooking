@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('menu-tour-active')
+active 
+@endsection
+
 @section('style')
 
 @endsection

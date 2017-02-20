@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('menu-contact-active')
+active 
+@endsection
+
 @section('style')
 
 @endsection

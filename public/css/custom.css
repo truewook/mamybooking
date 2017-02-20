@@ -55,11 +55,11 @@
 .search-wrapper {
 	margin-top: 20px;
 }
-.features {
+/*.features {
     background-color: #fff;
     color: #062d5d;
     padding: 30px 0 30px 0;
-}
+}*/
 .button-bule {
 	background: #357ae8 !important;
 }
@@ -198,4 +198,23 @@
 
 .label-show{
   padding-top: 7px;
+}
+.car-box-dashboard {
+    border: 1px solid #ddd;
+}
+.tour-box-dashboard {
+    border: 1px solid #ddd !important;
+}
+.listing-style3.hotel figure img {
+    height: 162px !important;
+    width: 270px !important;
+}
+.listing-style3.car .details .action .button {
+  margin-top: 10px !important;
+}
+.listing-style3.car .box, .listing-style3.car.box {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    width: 100%;
+    table-layout: fixed;
 }

@@ -10,7 +10,12 @@
         "guzzlehttp/guzzle": "^6.2",
         "laracasts/flash": "^2.0",
         "laravel/socialite": "^3.0",
+<<<<<<< HEAD
         "cviebrock/eloquent-sluggable": "^4.2"
+=======
+        "zizaco/entrust": "5.2.x-dev",
+        "acacha/admin-lte-template-laravel": "4.*"
+>>>>>>> origin/master
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
