@@ -10,7 +10,7 @@
         "guzzlehttp/guzzle": "^6.2",
         "laracasts/flash": "^2.0",
         "laravel/socialite": "^3.0",
-        "cviebrock/eloquent-sluggable": "^4.2"
+        "cviebrock/eloquent-sluggable": "^4.2",
         "zizaco/entrust": "5.2.x-dev",
         "acacha/admin-lte-template-laravel": "4.*"
     },
