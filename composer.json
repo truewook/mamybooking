@@ -10,7 +10,8 @@
         "guzzlehttp/guzzle": "^6.2",
         "laracasts/flash": "^2.0",
         "laravel/socialite": "^3.0",
-        "zizaco/entrust": "5.2.x-dev"
+        "zizaco/entrust": "5.2.x-dev",
+        "acacha/admin-lte-template-laravel": "4.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
