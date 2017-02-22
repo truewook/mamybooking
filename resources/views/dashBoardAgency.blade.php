@@ -32,7 +32,7 @@
                         <div id="profile" class="tab-pane fade in active">
                             <div class="row" style="border-bottom: 1px solid #ddd;">
                                 <div class="col-md-6"><h2 class="kanit">ข้อมูลส่วนตัว</h2></div>
-                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right edit-profile-btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไข</a></div>
+                                <div class="col-md-6"><a href="#" class="button btn-medium dark-blue2 pull-right edit-profile-btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไข</a></div>
                             </div>
                             <div class="view-profile">
                                 <article class="image-box style2 box innerstyle personal-details">
@@ -238,7 +238,7 @@
                         <div id="ownercar" class="tab-pane fade">
                             <div class="row" style="border-bottom: 1px solid #ddd;">
                                 <div class="col-md-6"><h2 class="kanit">รายการ รถเช่า</h2></div>
-                                <div class="col-md-6"><a href="{{url('dashboardagency/car/ceate')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
+                                <div class="col-md-6"><a href="{{url('createCar')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
                             </div>
                             <div class="car-list listing-style3 car">
                                 @for($i=0; $i < 10 ; $i++)
@@ -283,7 +283,7 @@
                         <div id="ownertour" class="tab-pane fade">
                             <div class="row" style="border-bottom: 1px solid #ddd;">
                                 <div class="col-md-6"><h2 class="kanit">รายการ ทริปท่องเที่ยว</h2></div>
-                                <div class="col-md-6"><a href="{{url('dashboardagency/tour/ceate')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
+                                <div class="col-md-6"><a href="{{url('createTour')}}" class="button btn-medium dark-blue2 pull-right"><i class="fa fa-plus" aria-hidden="true"></i> เพิ่ม</a></div>
                             </div>
                             
                             <div class="hotel-list listing-style3 hotel">

@@ -40,6 +40,7 @@ Route::get('dashBoardagency', function () {
     return view('dashBoardAgency');
 });
 
+
 Route::get('dashBoardindividal', function () {
     return view('dashBoardIndividal');
 });
@@ -48,6 +49,14 @@ Route::get('dashBoardcustomer', function () {
     return view('dashBoardCustomer');
 });
 
+//create
+Route::get('createTour', function () {
+    return view('createTour');
+});
+Route::get('createCar', function () {
+    return view('createCar');
+});
+// end create
 Auth::routes();
 
 // register
