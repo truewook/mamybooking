@@ -75,3 +75,8 @@ Route::get('register/verify/{confirmationCode}', [
 ]);
 
 Route::get('/home', 'HomeController@index');
+
+
+Route::get('admin', function () {
+    return view('admin.home.index');
+});
