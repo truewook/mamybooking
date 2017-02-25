@@ -208,10 +208,10 @@
 @section('script')
 <script type="text/javascript">
     tjq(document).ready(function(){
-    	var countDay = tjq("days").val();
-    	for(var i=0;i<countDay;i++){
+    	tjq(".addPlanOfday").click(function(){
+    		tjq(".plan")
+    	});
 
-    	}
     	tjq(".annotationAdd").click(function(){
         	tjq(".annotation").append("<div class='col-md-12'><div class='form-group col-sm-6 col-md-12'><input type='text' class='input-text full-width' value='' placeholder='' /></div></div>");
     	});
