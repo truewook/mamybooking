@@ -36,11 +36,19 @@
 	                            <div class="col-md-7">
 	                            	<div class="row">
 	                            		<div class="col-md-12">
-	                            			<div class="form-group col-sm-6 col-md-3">
-			                                    <label>ชื่อรถ</label>
+	                            			<div class="form-group col-sm-6 col-md-6">
+			                                    <label>ชื่อรถ(ภาษาไทย)</label>
 			                                    <input type="text" class="input-text full-width" value="" placeholder="" />
 			                                </div>
-			                                <div class="form-group col-sm-6 col-md-3">
+			                                <div class="form-group col-sm-6 col-md-6">
+			                                    <label>ชื่อรถ(ภาษาอังกฤษ)</label>
+			                                    <input type="text" class="input-text full-width" value="" placeholder="" />
+			                                </div>
+			                            </div>
+			                        </div>
+			                        <div class="row">
+			                        	<div class="col-md-12">
+			                                <div class="form-group col-sm-6 col-md-4">
 			                                    <label>จำนวนคนทั้งหมด</label>
 			                                    <input type="text" class="input-text full-width" value="" placeholder="" />
 			                                </div>
@@ -51,7 +59,7 @@
 			                                    <label>เด็ก</label>
 			                                    <input type="text" class="input-text full-width" value="" placeholder="" />
 			                                </div>
-			                                <div class="form-group col-sm-6 col-md-2">
+			                                <div class="form-group col-sm-6 col-md-4">
 			                                    <label>จำนวนสัมภาระ</label>
 			                                    <input type="text" class="input-text full-width" value="" placeholder="" />
 			                                </div>
@@ -105,7 +113,7 @@
 	                            <div class="col-md-5">
 	                            	<div class="form-group col-sm-6 col-md-12">
 	                                    <label>รายละเอียด</label>
-	                                	<textarea class="full-width" rows="6"></textarea>
+	                                	<textarea class="full-width" rows="10"></textarea>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -120,17 +128,22 @@
 							<div class="row">
 								<div class="col-md-12">
 									<div class="row">
+	                            		<div class="col-md-12 condition">
+											<div class="form-group col-sm-6 col-md-4">
+												<label>หัวข้อ</label>
+												<input type="text" class="input-text full-width" value="" placeholder="" />
+												<label>รายละเอียด</label>
+												<textarea class="full-width" rows="6"></textarea>
+											</div>
+	                            		</div>
+	                            	</div>
+	                            	<div class="row">
 										<div class="col-md-12">
 											<div class="col-md-12 marginBottom20">
 												<a class="button btn-medium green pull-right addCondition">เพิ่มเงื่อนไข</a>
 											</div>
 										</div>
 									</div>
-									<div class="row">
-	                            		<div class="col-md-12 condition">
-											
-	                            		</div>
-	                            	</div>
 								</div>
 							</div>
 						<div class="col-md-12">
