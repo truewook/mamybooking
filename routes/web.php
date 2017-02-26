@@ -80,3 +80,10 @@ Route::get('/home', 'HomeController@index');
 Route::get('admin', function () {
     return view('admin.home.index');
 });
+Route::get('admin/booking',function(){
+    return view('admin.booking.index');
+});
+Route::get('admin/booking_trash',function(){
+    return view('admin.booking.trash');
+});
+
