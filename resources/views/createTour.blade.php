@@ -23,7 +23,16 @@
 	            <form>
 					<div class="row">
 						<div class="col-md-12" style="height: 300px;">
-							<center><h1><font color="red">Upload Picture</font></h1></center>
+							<h4>Multi Language Inputs</h4>
+						    <form enctype="multipart/form-data">
+						        <label>French Input</label>
+						        <input id="file-fr" name="file-fr[]" type="file" multiple>
+						        <hr style="border: 2px dotted">
+						        <label>Spanish Input</label>
+						        <input id="file-es" name="file-es[]" type="file" multiple>
+						    </form>
+						    <hr>
+						    <br>
 						</div>
 					</div>
 					<div class="row">
