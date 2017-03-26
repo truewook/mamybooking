@@ -13,7 +13,7 @@
             </div>
             <ul class="breadcrumbs pull-right">
                 <li><a href="#">HOME</a></li>
-                <li class="active">CreateCar</li>
+                <li class="active">CreateTour</li>
             </ul>
         </div>
     </div>
@@ -21,18 +21,16 @@
         <div class="container block">
         	<div class="white" style="background-color: white;">
 	            <form>
-					<div class="row">
-						<div class="col-md-12" style="height: 300px;">
-							<h4>Multi Language Inputs</h4>
-						    <form enctype="multipart/form-data">
-						        <label>French Input</label>
-						        <input id="file-fr" name="file-fr[]" type="file" multiple>
-						        <hr style="border: 2px dotted">
-						        <label>Spanish Input</label>
-						        <input id="file-es" name="file-es[]" type="file" multiple>
-						    </form>
-						    <hr>
-						    <br>
+					<div class="row marTop10">
+						<div class="col-md-12 marTop10">
+							<div class="col-md-12">
+								<form enctype="multipart/form-data">
+							        <div class="form-group">
+							            <input id="fileTour" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="2">
+							        </div>
+							        <hr>
+							    </form>
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -216,6 +214,7 @@
 
 @section('script')
 <script type="text/javascript">
+	
     tjq(document).ready(function(){
     	tjq(".addPlanOfday").click(function(){
     		tjq(".plan")
